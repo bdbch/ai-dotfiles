@@ -6,6 +6,7 @@ Personal AI tooling configurations — currently focused on [opencode](https://o
 
 - **opencode config** — `.config/opencode/` with Chrome MCP plugin, custom agents, and skills
 - **Claude config** — `.config/claude/` with custom agents and skills
+- **Codex config** — `.config/codex/` with TOML agents, skills symlink, and AGENTS.md
 - **Custom agents** — 13 specialized agents for code review, architecture planning, browser testing, documentation, performance investigation, and more
 - **Skills** — 4 reusable skill bundles (browser debugging, design review, testing, code review)
 - **Agent working style** — shared peer-programming rules in `AGENTS.md`
@@ -27,6 +28,17 @@ Replace `/path/to/ai-dotfiles` with the actual path to this repository.
 mv ~/.claude ~/.claude-backup
 ln -s /path/to/ai-dotfiles/.config/claude ~/.claude
 ln -s /path/to/ai-dotfiles/AGENTS.md ~/CLAUDE.md
+```
+
+Replace `/path/to/ai-dotfiles` with the actual path to this repository.
+
+### Codex
+
+```bash
+mv ~/.codex ~/.codex-backup 2>/dev/null; true
+ln -s /path/to/ai-dotfiles/.config/codex ~/.codex
+mkdir -p ~/.agents
+ln -s /path/to/ai-dotfiles/skills ~/.agents/skills
 ```
 
 Replace `/path/to/ai-dotfiles` with the actual path to this repository.
