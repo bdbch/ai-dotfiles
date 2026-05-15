@@ -5,6 +5,7 @@ description: >-
   existing interface for usability issues, assessing visual consistency,
   checking responsive behavior, or when a user explicitly requests a design
   critique.
+name: design-reviewer
 mode: all
 permission:
   edit: deny

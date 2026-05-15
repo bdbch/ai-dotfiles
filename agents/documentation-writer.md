@@ -4,6 +4,7 @@ description: >-
   include: writing API docs for a new module, creating a README for a package,
   adding JSDoc to public functions, writing usage examples, creating
   architectural decision records, or writing migration guides.
+name: documentation-writer
 mode: all
 permission:
   edit: deny

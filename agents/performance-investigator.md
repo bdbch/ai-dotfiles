@@ -4,6 +4,7 @@ description: >-
   Examples include: page load is slow, interactions are janky, Core Web Vitals
   need improvement, bundle size is too large, or profiling data shows a
   bottleneck.
+name: performance-investigator
 mode: all
 permission:
   edit: deny

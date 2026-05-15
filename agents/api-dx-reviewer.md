@@ -4,6 +4,7 @@ description: >-
   package, module, or component. Examples include: reviewing a new function or
   class signature, evaluating a hook or component API, checking consistency
   across similar exports, or reviewing exports in an index file.
+name: api-dx-reviewer
 mode: all
 permission:
   edit: deny

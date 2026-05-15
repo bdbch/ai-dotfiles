@@ -6,6 +6,7 @@ description: >-
   whether a runtime bug is a known issue in a dependency, evaluating the impact
   of upgrading a major version, or auditing the dependency tree for outdated or
   vulnerable packages.
+name: dependency-upgrade-scout
 mode: all
 permission:
   edit: deny

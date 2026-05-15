@@ -4,6 +4,7 @@ description: >-
   safety, and maintainability. Examples include: reviewing a pull request with
   type changes, auditing a module for type quality, checking if types are
   exported correctly, or investigating type-related bugs.
+name: typescript-type-reviewer
 mode: all
 permission:
   edit: deny

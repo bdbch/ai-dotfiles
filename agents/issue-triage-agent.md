@@ -4,6 +4,7 @@ description: >-
   any other issue tracker. Examples include: classifying a bug report,
   determining if an issue has enough information to act on, assigning priority
   and severity, or identifying duplicate or related issues.
+name: issue-triage-agent
 mode: all
 permission:
   edit: deny

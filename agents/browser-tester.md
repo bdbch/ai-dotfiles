@@ -5,6 +5,7 @@ description: >-
   Examples include: testing a new feature before release, reproducing a bug
   report, verifying a fix, regression testing after changes, or reviewing a PR
   with UI changes.
+name: browser-tester
 mode: all
 permission:
   edit: deny

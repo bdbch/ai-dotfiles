@@ -4,6 +4,7 @@ description: >-
   Examples include: designing a new module, choosing between implementation
   approaches, planning a refactor, or evaluating tradeoffs of different
   architectural decisions.
+name: architecture-planner
 mode: all
 permission:
   edit: deny

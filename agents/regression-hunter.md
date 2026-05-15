@@ -4,6 +4,7 @@ description: >-
   potential regressions. Examples include: reviewing a git diff for ripple
   effects, checking if a change to shared code could break consumers, or
   validating that a fix does not reintroduce a previous bug.
+name: regression-hunter
 mode: all
 permission:
   edit: deny

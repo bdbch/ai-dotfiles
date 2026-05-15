@@ -4,6 +4,7 @@ description: >-
   Examples include: deciding what to test in a new component, determining test
   levels for a feature, reviewing existing test coverage, or planning a testing
   strategy for a sprint.
+name: test-strategist
 mode: all
 permission:
   edit: deny

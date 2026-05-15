@@ -5,6 +5,7 @@ description: >-
   Examples include: after completing a feature implementation, after fixing a
   bug, after refactoring a module, or when a user explicitly requests a code
   review.
+name: code-reviewer
 mode: all
 permission:
   edit: deny

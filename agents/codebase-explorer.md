@@ -5,6 +5,7 @@ description: >-
   to a new project, investigating where a feature lives, mapping out
   dependencies between modules, or identifying files and patterns that should
   not be touched.
+name: codebase-explorer
 mode: all
 permission:
   edit: deny
