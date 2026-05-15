@@ -5,6 +5,7 @@ Personal AI tooling configurations — currently focused on [opencode](https://o
 ## Contents
 
 - **opencode config** — `.config/opencode/` with Chrome MCP plugin, custom agents, and skills
+- **Claude config** — `.config/claude/` with custom agents and skills
 - **Custom agents** — 13 specialized agents for code review, architecture planning, browser testing, documentation, performance investigation, and more
 - **Skills** — 4 reusable skill bundles (browser debugging, design review, testing, code review)
 - **Agent working style** — shared peer-programming rules in `AGENTS.md`
@@ -16,6 +17,16 @@ Personal AI tooling configurations — currently focused on [opencode](https://o
 ```bash
 mv ~/.config/opencode ~/.config/opencode_backup
 ln -s /path/to/ai-dotfiles/.config/opencode ~/.config/opencode
+```
+
+Replace `/path/to/ai-dotfiles` with the actual path to this repository.
+
+### Claude
+
+```bash
+mv ~/.claude ~/.claude-backup
+ln -s /path/to/ai-dotfiles/.config/claude ~/.claude
+ln -s /path/to/ai-dotfiles/AGENTS.md ~/CLAUDE.md
 ```
 
 Replace `/path/to/ai-dotfiles` with the actual path to this repository.
