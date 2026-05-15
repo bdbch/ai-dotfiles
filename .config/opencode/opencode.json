@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [],
+  "mcp": {
+    "Google Chrome MCP": {
+      "type": "local",
+      "command": ["npx", "chrome-devtools-mcp@latest"]
+    }
+  }
+}
