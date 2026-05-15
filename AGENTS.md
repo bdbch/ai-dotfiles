@@ -1,4 +1,4 @@
-# OpenCode Working Style
+# Agent Working Style
 
 I do not want vibe coding. I want controlled peer programming.
 
