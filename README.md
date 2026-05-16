@@ -13,6 +13,16 @@ Personal AI tooling configurations — currently focused on [opencode](https://o
 
 ## Installation
 
+> **IMPORTANT**: You need to run the installers out of the actual git repository. If you just downloaded the zip, run `git init` in the ai-dotfiles root directory
+
+### opencode
+
+```bash
+sh ./installers/opencode.sh
+```
+
+## Manual Installation
+
 ### opencode
 
 ```bash
