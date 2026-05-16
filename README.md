@@ -109,10 +109,17 @@ All 13 agents live in `agents/` and are available in opencode:
 - **Browser Test** — Manual end-to-end feature testing via Chrome
 - **Code Review** — Best practices, bug detection, code quality feedback
 
+## MCPs
+
+The Opencode setup comes with pre-setup MCPs.
+
+- Chrome DevTools MCP: enabled via `chrome-devtools-mcp`
+- Linear MCP: included but **disabled by default**. To enable it, run `/mcps` in opencode and toggle Linear MCP on.
+- Notion MCP: included but **disabled by default**. To enable it, run `/mcps` in opencode and toggle Linear MCP on.
+    - On first run, the MCP will require you to login via OAuth. To do so, run `opencode mcp auth Notion`
+
 ## Configuration
 
 The main config is `opencode.json`. Current setup:
 
 - Default agent: `plan` (starts every conversation in planning mode)
-- Chrome DevTools MCP: enabled via `chrome-devtools-mcp`
-- Linear MCP: included but **disabled by default**. To enable it, run `/mcps` in opencode and toggle Linear MCP on.

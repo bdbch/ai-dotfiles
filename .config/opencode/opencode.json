@@ -11,6 +11,12 @@
       "type": "local",
       "enabled": false,
       "command": ["npx", "-y", "mcp-remote", "https://mcp.linear.app/mcp"]
+    },
+    "Notion": {
+      "type": "remote",
+      "enabled": false,
+      "url": "https://mcp.notion.com/mcp",
+      "oauth": {}
     }
   }
 }
