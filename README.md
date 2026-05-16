@@ -35,6 +35,31 @@ sh ./installers/claude.sh
 sh ./installers/codex.sh
 ```
 
+### Windows (PowerShell)
+
+Run from a PowerShell prompt within the git repository. No administrator privileges required.
+
+#### opencode
+
+```powershell
+.\installers\opencode.ps1
+```
+
+#### Claude
+
+```powershell
+.\installers\claude.ps1
+```
+
+#### Codex
+
+```powershell
+.\installers\codex.ps1
+```
+
+**Note**: Directory junctions are used instead of symlinks (no admin needed).
+`CLAUDE.md` is a copy of `AGENTS.md` — re-run the installer to update it.
+
 ## Manual Installation
 
 ### opencode
@@ -46,6 +71,13 @@ ln -s /path/to/ai-dotfiles/.config/opencode ~/.config/opencode
 
 Replace `/path/to/ai-dotfiles` with the actual path to this repository.
 
+**Windows**:
+```powershell
+$repo = "C:\path\to\ai-dotfiles"
+Move-Item "$env:USERPROFILE\.config\opencode" "$env:USERPROFILE\.config\opencode_backup"
+New-Item -ItemType Junction -Path "$env:USERPROFILE\.config\opencode" -Target "$repo\.config\opencode"
+```
+
 ### Claude
 
 ```bash
@@ -55,6 +87,14 @@ ln -s /path/to/ai-dotfiles/AGENTS.md ~/CLAUDE.md
 ```
 
 Replace `/path/to/ai-dotfiles` with the actual path to this repository.
+
+**Windows**:
+```powershell
+$repo = "C:\path\to\ai-dotfiles"
+Move-Item "$env:USERPROFILE\.claude" "$env:USERPROFILE\.claude_backup"
+New-Item -ItemType Junction -Path "$env:USERPROFILE\.claude" -Target "$repo\.config\claude"
+Copy-Item "$repo\AGENTS.md" "$env:USERPROFILE\CLAUDE.md"
+```
 
 ### Codex
 
@@ -66,6 +106,15 @@ ln -s /path/to/ai-dotfiles/skills ~/.agents/skills
 ```
 
 Replace `/path/to/ai-dotfiles` with the actual path to this repository.
+
+**Windows**:
+```powershell
+$repo = "C:\path\to\ai-dotfiles"
+Move-Item "$env:USERPROFILE\.codex" "$env:USERPROFILE\.codex_backup"
+New-Item -ItemType Junction -Path "$env:USERPROFILE\.codex" -Target "$repo\.config\codex"
+New-Item -ItemType Directory -Path "$env:USERPROFILE\.agents" -Force
+New-Item -ItemType Junction -Path "$env:USERPROFILE\.agents\skills" -Target "$repo\skills"
+```
 
 ### Dependencies
 
