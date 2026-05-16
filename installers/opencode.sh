@@ -1,9 +1,10 @@
 #!/bin/bash
 
-OPENCODE_DIR="$HOME/.config/opencode"
-BACKUP_DIR="$HOME/.config/opencode_backup_$(date +%Y%m%d%H%M%S)"
+OPENCODE_DIR="$HOME/.backups/.config/opencode"
+BACKUP_DIR="$HOME/.backups/.config/opencode_backup_$(date +%Y%m%d%H%M%S)"
 
 # Migrate / Backup old opensource folder
+mkdir -p "$BACKUP_DIR"
 if [ -d "$OPENCODE_DIR" ]; then
     # If the existing configuration is a symbolic link, we can remove it without backup
     if [ -L "$OPENCODE_DIR" ]; then
