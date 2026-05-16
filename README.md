@@ -21,6 +21,18 @@ Personal AI tooling configurations — currently focused on [opencode](https://o
 sh ./installers/opencode.sh
 ```
 
+### Claude
+
+```bash
+sh ./installers/claude.sh
+```
+
+### Codex
+
+```bash
+sh ./installers/codex.sh
+```
+
 ## Manual Installation
 
 ### opencode
