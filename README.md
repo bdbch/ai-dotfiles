@@ -99,7 +99,7 @@ All agents live in `agents/` and are available in opencode:
 | issue-triage-agent | Classify and prioritize incoming issues |
 | performance-investigator | Debug page load, Core Web Vitals, bundle size |
 | regression-hunter | Detect ripple effects after bugfixes or refactors |
-| vue-app-developer | Develop Vue.js applications |
+| vue-developer | Develop Vue.js applications |
 | test-strategist | Plan test coverage for features and modules |
 | typescript-type-reviewer | Review TypeScript types for correctness and safety |
 

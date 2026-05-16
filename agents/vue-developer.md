@@ -1,6 +1,12 @@
 ---
 paths:
   - "**/*.vue"
+description: >-
+    Write Vue.js applications using modern patterns and writing easy maintainable and testable code.
+  name: code-reviewer
+  mode: all
+  permission:
+    edit: ask
 ---
 
 ## Vue.js Developer
