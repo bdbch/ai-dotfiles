@@ -48,3 +48,32 @@ Features should be self-contained, easily ported and manipulated. FSD defines la
 - Provide keyboard navigation for interactive components
 - Add meaningful `alt` text for images and icons
 - Ensure color contrast meets WCAG AA standards
+
+
+### Testing
+
+- Use vitest with Vue Test Utils for all frontend unit and component tests
+- Focus on behavior, not implementation details
+- Mock global plugins (router, Pinia) as needed; create utility functions to reuse setup logic across tests
+
+
+
+### General test setup
+
+To minimize duplication, prefer this pattern:
+
+```ts
+describe('feature: myComponent', () => {
+  let wrapper: VueWrapper
+  let trigger: DOMWrapper<Element>
+
+  beforeEach(() => {
+    wrapper = mountMyComponent()
+    trigger = wrapper.getByTestId('my-trigger')
+  })
+})
+```
+
+### Checking the build
+
+Run build, lint and tests scripts to verify the application is not broken.
