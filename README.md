@@ -88,6 +88,7 @@ All agents live in `agents/` and are available in opencode:
 
 | Agent | Description |
 |-------|-------------|
+| accessibility-auditor | Systematic WCAG accessibility audit |
 | api-dx-reviewer | Review public API surfaces (functions, hooks, exports) |
 | architecture-planner | Design modules, evaluate tradeoffs before coding |
 | browser-tester | Manual end-to-end browser testing |
@@ -106,6 +107,7 @@ All agents live in `agents/` and are available in opencode:
 
 Skill bundles in `skills/`:
 
+- **Accessibility Review** — WCAG audit, keyboard nav, contrast, ARIA, screen reader compatibility
 - **Browser Debug** — Diagnose console errors, network issues, performance regressions
 - **Browser Design Review** — Senior UI/UX design critique
 - **Browser Test** — Manual end-to-end feature testing via Chrome
