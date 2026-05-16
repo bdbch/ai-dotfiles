@@ -1,3 +1,5 @@
+![AI DOTFILES COVER](.github/assets/cover.png)
+
 # ai-dotfiles
 
 Personal AI tooling configurations — currently focused on [opencode](https://opencode.ai).
