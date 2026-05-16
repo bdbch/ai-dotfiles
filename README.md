@@ -115,3 +115,4 @@ The main config is `opencode.json`. Current setup:
 
 - Default agent: `plan` (starts every conversation in planning mode)
 - Chrome DevTools MCP: enabled via `chrome-devtools-mcp`
+- Linear MCP: included but **disabled by default**. To enable it, run `/mcps` in opencode and toggle Linear MCP on.

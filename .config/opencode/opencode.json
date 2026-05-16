@@ -6,6 +6,11 @@
     "Google Chrome MCP": {
       "type": "local",
       "command": ["npx", "chrome-devtools-mcp@latest"]
+    },
+    "Linear MCP": {
+      "type": "local",
+      "enabled": false,
+      "command": ["npx", "-y", "mcp-remote", "https://mcp.linear.app/mcp"]
     }
   }
 }
