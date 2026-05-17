@@ -1,6 +1,6 @@
 # Guide
 
-AI Dotfiles is a collection of personal AI tooling configurations centered around [opencode](https://opencode.ai). It provides a unified setup for opencode, Claude Desktop, and Codex, sharing a common set of agents, skills, and working style rules.
+AI Dotfiles is a collection of personal AI tooling configurations for [opencode](https://opencode.ai). It provides a set of agents, skills, and working style rules.
 
 ## Quick Links
 

@@ -9,16 +9,6 @@ Each agent defines:
 - **Permissions** — what it can or cannot do (edit files, run commands, browse the web)
 - **Mode** — whether it works autonomously, requires approval, or follows the peer-programming workflow
 
-## Shared Configuration
-
-The same agent definitions are available in all three AI tools:
-
-| Tool | Agent Format | Location |
-|------|-------------|----------|
-| opencode | Markdown | `agents/<name>.md` |
-| Claude | Markdown | `.config/claude/agents/<name>.md` |
-| Codex | TOML | `.config/codex/<name>.toml` |
-
 ## Agent Types
 
 | Category | Agents |

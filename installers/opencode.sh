@@ -3,20 +3,6 @@
 OPENCODE_DIR="$HOME/.config/opencode"
 BACKUP_DIR="$HOME/.backups/.config/opencode_backup_$(date +%Y%m%d%H%M%S)"
 
-# Migrate / Backup old opensource folder
-mkdir -p "$BACKUP_DIR"
-if [ -d "$OPENCODE_DIR" ]; then
-    # If the existing configuration is a symbolic link, we can remove it without backup
-    if [ -L "$OPENCODE_DIR" ]; then
-        echo "Existing Opencode configuration is a symbolic link. Removing it."
-        rm "$OPENCODE_DIR"
-    else
-        echo "Existing Opencode configuration found. Backing up to $BACKUP_DIR"
-        mv "$OPENCODE_DIR" "$BACKUP_DIR"
-        echo "Backup completed."
-    fi
-fi
-
 # Find the root directory of the ai-dotfiles repository
 REPO_ROOT=$(git rev-parse --show-toplevel 2>/dev/null)
 
@@ -25,21 +11,45 @@ if [ -z "$REPO_ROOT" ]; then
     exit 1
 fi
 
-# Create a symbolic link to the new opencode configuration
-echo "Creating symbolic link for Opencode configuration..."
-ln -s "$REPO_ROOT/.config/opencode" "$OPENCODE_DIR"
-
-# Copy the base config if no personal config exists yet
-if [ ! -f "$OPENCODE_DIR/opencode.json" ]; then
-    echo "Creating default opencode.json from opencode.base.json..."
-    cp "$OPENCODE_DIR/opencode.base.json" "$OPENCODE_DIR/opencode.json"
+# Backup existing config
+mkdir -p "$BACKUP_DIR"
+if [ -e "$OPENCODE_DIR" ] || [ -L "$OPENCODE_DIR" ]; then
+    if [ -L "$OPENCODE_DIR" ]; then
+        echo "Existing opencode configuration is a symbolic link. Removing it."
+        rm "$OPENCODE_DIR"
+    else
+        echo "Existing opencode configuration found. Backing up to $BACKUP_DIR"
+        mv "$OPENCODE_DIR" "$BACKUP_DIR"
+        echo "Backup completed."
+    fi
 fi
 
-# Create secrets directory for external MCP tokens (e.g., GitHub PAT)
+# Create config directory
+mkdir -p "$OPENCODE_DIR"
+
+# Symlink configuration files
+ln -s "$REPO_ROOT/opencode.jsonc" "$OPENCODE_DIR/opencode.jsonc"
+ln -s "$REPO_ROOT/opencode.base.json" "$OPENCODE_DIR/opencode.base.json"
+ln -s "$REPO_ROOT/AGENTS.md" "$OPENCODE_DIR/AGENTS.md"
+ln -s "$REPO_ROOT/agents" "$OPENCODE_DIR/agents"
+ln -s "$REPO_ROOT/skills" "$OPENCODE_DIR/skills"
+
+# Copy the package.json for npm dependencies
+cp "$REPO_ROOT/opencode.package.json" "$OPENCODE_DIR/package.json"
+
+# Copy the base config as personal config if none exists yet
+if [ ! -f "$OPENCODE_DIR/opencode.json" ]; then
+    cp "$REPO_ROOT/opencode.base.json" "$OPENCODE_DIR/opencode.json"
+fi
+
+# Create secrets directory (real dir, not symlinks — tokens must stay out of the repo)
 mkdir -p "$OPENCODE_DIR/.secrets"
 chmod 700 "$OPENCODE_DIR/.secrets"
 touch "$OPENCODE_DIR/.secrets/github-pat"
 chmod 600 "$OPENCODE_DIR/.secrets/github-pat"
+
+# Install plugin dependencies
+cd "$OPENCODE_DIR" && npm install
 
 echo "Opencode configuration has been set up successfully."
 echo "You can find the new configuration at $OPENCODE_DIR"

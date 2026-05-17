@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "AI Dotfiles",
   description:
-    "Personal AI tooling configurations for opencode, Claude, Codex, and Copilot",
+    "Personal AI tooling configurations for opencode",
   base: "/ai-dotfiles/",
   cleanUrls: true,
 
@@ -105,9 +105,6 @@ export default defineConfig({
           text: "Configuration",
           items: [
             { text: "Opencode", link: "/config/opencode" },
-            { text: "Claude", link: "/config/claude" },
-            { text: "Codex", link: "/config/codex" },
-            { text: "Copilot", link: "/config/copilot" },
           ],
         },
       ],

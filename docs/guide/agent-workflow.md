@@ -1,6 +1,6 @@
 # Agent Working Style
 
-AI Dotfiles uses a shared **peer-programming workflow** defined in `AGENTS.md`. This workflow is consistent across opencode, Claude, and Codex.
+AI Dotfiles uses a **peer-programming workflow** defined in `AGENTS.md`.
 
 ## Core Principles
 

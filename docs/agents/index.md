@@ -16,16 +16,6 @@ All 19 agents live in `agents/` and are available in opencode. They share a comm
 | **Explore** | [Codebase Explorer](/agents/codebase-explorer) |
 | **Coding** | [Peer Programmer](/agents/peer-programmer) |
 
-## Shared Definitions
-
-The same agent definitions are available in all three supported tools:
-
-| Tool | Format | Path |
-|------|--------|------|
-| opencode | Markdown | `agents/<name>.md` |
-| Claude Desktop | Markdown | `.config/claude/agents/<name>.md` |
-| Codex | TOML | `.config/codex/<name>.toml` |
-
 ## All Agents
 
 - [Accessibility Auditor](/agents/accessibility-auditor) — WCAG 2.1 AA compliance audits using Chrome MCP
