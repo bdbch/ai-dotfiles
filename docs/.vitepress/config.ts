@@ -115,10 +115,8 @@ export default defineConfig({
           text: "Installation",
           items: [
             { text: "Overview", link: "/install/" },
-            { text: "Opencode", link: "/install/opencode" },
-            { text: "Claude", link: "/install/claude" },
-            { text: "Codex", link: "/install/codex" },
-            { text: "Manual", link: "/install/manual" },
+            { text: "UNIX (Linux / macOS)", link: "/install/unix" },
+            { text: "Windows", link: "/install/windows" },
           ],
         },
       ],
