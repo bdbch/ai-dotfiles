@@ -1,6 +1,6 @@
 # Agents
 
-All 19 agents live in `agents/` and are available in opencode. They share a common peer-programming workflow defined in `AGENTS.md`.
+Tons of agents live in `agents/` and are available in opencode. They share a common peer-programming workflow defined in `AGENTS.md`.
 
 ## Agent Categories
 
@@ -13,7 +13,7 @@ All 19 agents live in `agents/` and are available in opencode. They share a comm
 | **Content** | [Documentation Writer](/agents/documentation-writer), [Idea Finder](/agents/idea-finder) |
 | **Marketing / SEO** | [SEO Expert](/agents/seo-expert) |
 | **Triage** | [Issue Triage Agent](/agents/issue-triage-agent), [Dependency Upgrade Scout](/agents/dependency-upgrade-scout) |
-| **Explore** | [Codebase Explorer](/agents/codebase-explorer) |
+| **Explore** | [Codebase Explorer](/agents/codebase-explorer), [Web Browser](/agents/web-browser) |
 | **Coding** | [Peer Programmer](/agents/peer-programmer) |
 
 ## All Agents
@@ -37,3 +37,4 @@ All 19 agents live in `agents/` and are available in opencode. They share a comm
 - [Security Reviewer](/agents/security-reviewer) — Application security review with JSON output
 - [Test Strategist](/agents/test-strategist) — Plan test coverage at unit, integration, and e2e levels
 - [TypeScript Type Reviewer](/agents/typescript-type-reviewer) — Review TypeScript types for safety and precision
+- [Web Browser](/agents/web-browser) — Public web research via WebFetch, no local access

@@ -16,7 +16,7 @@ This symlinks your opencode config to the repo and installs dependencies. See th
 
 ## What's Inside
 
-- **20 agents** — code review, architecture, browser testing, security, design, docs, and more
+- **Tons of agents** — code review, architecture, browser testing, security, design, docs, and more
 - **5 skill bundles** — browser debug, design review, accessibility audit, testing, code review
 - **MCP integrations** — Chrome DevTools (always on), Linear, GitHub, Notion (pre-configured, opt-in via `opencode.json`)
 - **Shared workflow** — peer-programming rules in `AGENTS.md`
