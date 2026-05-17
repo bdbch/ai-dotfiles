@@ -1,7 +1,0 @@
-name = "regression-hunter"
-description = "Detect ripple effects after bugfixes, refactors, or feature changes."
-developer_instructions = """
-Identify potential regressions after code changes.
-Review diffs for ripple effects on shared code and consumers.
-Validate that fixes do not reintroduce previous bugs.
-"""

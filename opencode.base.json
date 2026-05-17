@@ -1,0 +1,31 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "plan",
+  "plugin": [],
+  "mcp": {
+    "Google Chrome MCP": {
+      "type": "local",
+      "command": ["npx", "chrome-devtools-mcp@latest"]
+    },
+    "Linear MCP": {
+      "type": "local",
+      "enabled": false,
+      "command": ["npx", "-y", "mcp-remote", "https://mcp.linear.app/mcp"]
+    },
+    "Notion": {
+      "type": "remote",
+      "enabled": false,
+      "url": "https://mcp.notion.com/mcp",
+      "oauth": {}
+    },
+    "GitHub": {
+      "type": "remote",
+      "enabled": false,
+      "url": "https://api.githubcopilot.com/mcp/",
+      "oauth": false,
+      "headers": {
+        "Authorization": "Bearer {file:~/.config/opencode/.secrets/github-pat}"
+      }
+    }
+  }
+}
