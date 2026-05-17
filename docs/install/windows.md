@@ -6,14 +6,11 @@ Windows requires different setup steps because it doesn't support UNIX-style sym
 
 ## Option 1: Clone to the Right Path (No Symlinks)
 
-Clone the repository directly where each tool expects its config to live. This avoids symlinks entirely but means you have separate clones if you use multiple tools.
+Clone the repository directly where opencode expects its config. This avoids symlinks entirely.
 
 ```powershell
-# opencode
 git clone https://github.com/bdbch/ai-dotfiles.git "$env:USERPROFILE\.config\opencode"
 ```
-
-For Claude or Codex, clone the whole repo and point the tool at the relevant subdirectory.
 
 ## Option 2: Directory Junctions (Recommended)
 
@@ -25,42 +22,27 @@ Clone the repo to a permanent location first:
 git clone https://github.com/bdbch/ai-dotfiles.git C:\dev\ai-dotfiles
 ```
 
-Then create junctions for each tool:
-
-### opencode
+Then create individual junctions for each config item:
 
 ```powershell
-mklink /J "%USERPROFILE%\.config\opencode" "C:\dev\ai-dotfiles\.config\opencode"
+:: Create the opencode config directory
+mkdir "%USERPROFILE%\.config\opencode"
+
+:: Individual file junctions
+mklink "%USERPROFILE%\.config\opencode\opencode.jsonc" "C:\dev\ai-dotfiles\opencode.jsonc"
+mklink "%USERPROFILE%\.config\opencode\opencode.base.json" "C:\dev\ai-dotfiles\opencode.base.json"
+mklink "%USERPROFILE%\.config\opencode\AGENTS.md" "C:\dev\ai-dotfiles\AGENTS.md"
+mklink /J "%USERPROFILE%\.config\opencode\agents" "C:\dev\ai-dotfiles\agents"
+mklink /J "%USERPROFILE%\.config\opencode\skills" "C:\dev\ai-dotfiles\skills"
 ```
 
-After creating the junction, copy the base config to create your editable config:
+Create your personal config from the base template:
 
 ```powershell
 copy "$env:USERPROFILE\.config\opencode\opencode.base.json" "$env:USERPROFILE\.config\opencode\opencode.json"
 ```
 
 Edit `opencode.json` freely — it's git-ignored and won't be overwritten.
-
-### Claude
-
-```powershell
-mklink /J "%USERPROFILE%\.claude" "C:\dev\ai-dotfiles\.config\claude"
-mklink "%USERPROFILE%\CLAUDE.md" "C:\dev\ai-dotfiles\AGENTS.md"
-```
-
-### Codex
-
-```powershell
-mklink /J "%USERPROFILE%\.codex" "C:\dev\ai-dotfiles\.config\codex"
-mkdir "%USERPROFILE%\.agents" 2>$null
-mklink /J "%USERPROFILE%\.agents\skills" "C:\dev\ai-dotfiles\skills"
-```
-
-### Copilot
-
-```powershell
-mklink /J "%USERPROFILE%\.copilot" "C:\dev\ai-dotfiles\.config\copilot"
-```
 
 ## Dependencies
 

@@ -1,7 +1,0 @@
-name = "test-strategist"
-description = "Plan test coverage for features, modules, and bug fixes."
-developer_instructions = """
-Plan comprehensive test coverage for features, modules, and bug fixes.
-Determine appropriate test levels (unit, integration, e2e) and what to test.
-Review existing coverage and identify gaps.
-"""

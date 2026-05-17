@@ -4,7 +4,7 @@ layout: home
 hero:
   name: AI Dotfiles
   text: Personal AI tooling configurations
-  tagline: Opencode · Claude · Codex
+  tagline: Opencode
   actions:
     - theme: brand
       text: Get Started
@@ -21,8 +21,8 @@ features:
     title: Reusable Skills
     details: Skill bundles for browser debugging, design review, accessibility auditing, and code review that any agent can invoke.
   - icon: ⚙️
-    title: Multi-Platform
-    details: One configuration source of truth shared across opencode, Claude Desktop, and Codex via symlinks and TOML/Markdown definitions.
+    title: Symlinked Configuration
+    details: All configuration lives in one repo directory and is symlinked into ~/.config/opencode for easy, version-controlled setup.
   - icon: 🔌
     title: MCP Integrations
     details: Chrome DevTools MCP for browser automation, with optional Linear and Notion integrations ready to enable.
@@ -30,9 +30,7 @@ features:
 
 ## Contents
 
-- **opencode** — `.config/opencode/` with Chrome MCP plugin, custom agents, and skills
-- **Claude** — `.config/claude/` with custom agents and skills
-- **Codex** — `.config/codex/` with TOML agents, skills symlink, and AGENTS.md
 - **Custom agents** — 18 agents for code review, architecture planning, browser testing, documentation, performance, and more
 - **Skills** — 5 reusable skill bundles (browser debugging, design review, testing, code review, accessibility)
-- **Agent working style** — shared peer-programming rules in `AGENTS.md`
+- **Agent working style** — peer-programming rules in `AGENTS.md`
+- **MCP integrations** — Chrome DevTools MCP for browser automation, with optional Linear, GitHub, and Notion integrations ready to enable

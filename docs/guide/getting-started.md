@@ -4,5 +4,5 @@
 
 Choose your platform:
 
-- [**UNIX (Linux / macOS)** — Installer scripts & manual setup](/install/unix)
+- [**UNIX (Linux / macOS)** — Installer script & manual setup](/install/unix)
 - [**Windows** — PowerShell junctions & manual setup](/install/windows)

@@ -2,7 +2,7 @@
 
 Skill bundles are reusable instruction sets that agents invoke to perform specialized tasks. Each skill encapsulates domain knowledge, tool usage patterns, and output formats.
 
-Skills live in `skills/` and are symlinked to `.config/opencode/skills/` and `.config/codex/` for tool-specific availability.
+Skills live in `skills/` and are symlinked to `~/.config/opencode/skills/` on install.
 
 ## Available Skills
 
