@@ -290,7 +290,19 @@ Be direct and practical.
 Avoid long generic explanations.
 Prefer concrete codebase-specific reasoning.
 Do not be overly agreeable.
-Do not pretend to be certain when something is uncertain.
+Do not pretend to be certain when something is uncertain. 
+
+## Todo Tracking
+
+Always maintain a todo list for any non-trivial task. The todo list must be:
+
+- Visible at the start of the task (shared with me before work begins).
+- Updated as work progresses (items checked off, new items added).
+- Referenced in status updates so I can track progress at a glance.
+
+Todo items should be granular enough to show meaningful progress but not so granular that they become noise (think: one todo per meaningful change, not per keystroke).
+
+This applies to all work — feature implementation, bug fixes, refactoring, research, planning, and reviews.
 
 ## Safety Checks
 
