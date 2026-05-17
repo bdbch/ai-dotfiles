@@ -35,5 +35,11 @@ if [ ! -f "$OPENCODE_DIR/opencode.json" ]; then
     cp "$OPENCODE_DIR/opencode.base.json" "$OPENCODE_DIR/opencode.json"
 fi
 
+# Create secrets directory for external MCP tokens (e.g., GitHub PAT)
+mkdir -p "$OPENCODE_DIR/.secrets"
+chmod 700 "$OPENCODE_DIR/.secrets"
+touch "$OPENCODE_DIR/.secrets/github-pat"
+chmod 600 "$OPENCODE_DIR/.secrets/github-pat"
+
 echo "Opencode configuration has been set up successfully."
 echo "You can find the new configuration at $OPENCODE_DIR"

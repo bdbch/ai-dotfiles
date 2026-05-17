@@ -12,6 +12,9 @@ The opencode configuration lives in `.config/opencode/` and is the primary setup
 ├── AGENTS.md              # Agent working style rules
 ├── agents/                # Agent definitions (symlinked from agents/)
 ├── skills/                # Skill bundles (symlinked from skills/)
+├── .secrets/              # External MCP tokens (gitignored, created by installer)
+│   ├── .gitignore         # Ignores all files except itself
+│   └── github-pat         # GitHub PAT placeholder (fill with your token)
 └── node_modules/          # Installed dependencies
 ```
 
@@ -120,10 +123,10 @@ Go to [github.com/settings/personal-access-tokens/new](https://github.com/settin
 
 **2. Store it in a secret file**
 
+The installer already created `~/.config/opencode/.secrets/github-pat` for you. Just paste your PAT into it:
+
 ```bash
-mkdir -p ~/.config/opencode/.secrets
-chmod 700 ~/.config/opencode/.secrets
-# Paste your PAT into this file (one line, no newline):
+# Replace the placeholder with your actual PAT:
 printf 'your_pat_here' > ~/.config/opencode/.secrets/github-pat
 chmod 600 ~/.config/opencode/.secrets/github-pat
 ```
