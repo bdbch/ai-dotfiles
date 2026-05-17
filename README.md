@@ -2,100 +2,31 @@
 
 # ai-dotfiles
 
-Personal AI tooling configurations — currently focused on [opencode](https://opencode.ai).
+Personal AI tooling configurations for [opencode](https://opencode.ai), Claude Desktop, and Codex — 18 agents, 5 skills, shared peer-programming workflow.
 
-## Contents
+[📖 Read the docs](https://bdbch.github.io/ai-dotfiles/)
 
-- **opencode config** — `.config/opencode/` with Chrome MCP plugin, custom agents, and skills
-- **Claude config** — `.config/claude/` with custom agents and skills
-- **Codex config** — `.config/codex/` with TOML agents, skills symlink, and AGENTS.md
-- **Custom agents** — Specialized agents for code review, architecture planning, browser testing, documentation, performance investigation, and more
-- **Skills** — Reusable skill bundles (browser debugging, design review, testing, code review)
-- **Agent working style** — shared peer-programming rules in `AGENTS.md`
-
-## Installation
-
-> **IMPORTANT**: You need to run the installers out of the actual git repository. If you just downloaded the zip, run `git init` in the ai-dotfiles root directory
-
-### opencode
+## Quick Install
 
 ```bash
-sh ./installers/opencode.sh
+sh ./installers/opencode.sh   # opencode
+sh ./installers/claude.sh     # Claude Desktop
+sh ./installers/codex.sh      # Codex
 ```
 
-### Claude
-
-```bash
-sh ./installers/claude.sh
-```
-
-### Codex
-
-```bash
-sh ./installers/codex.sh
-```
-
-## Manual Installation
-
-### opencode
-
-```bash
-mv ~/.config/opencode ~/.config/opencode_backup
-ln -s /path/to/ai-dotfiles/.config/opencode ~/.config/opencode
-```
-
-Replace `/path/to/ai-dotfiles` with the actual path to this repository.
-
-### Claude
-
-```bash
-mv ~/.claude ~/.claude-backup
-ln -s /path/to/ai-dotfiles/.config/claude ~/.claude
-ln -s /path/to/ai-dotfiles/AGENTS.md ~/CLAUDE.md
-```
-
-Replace `/path/to/ai-dotfiles` with the actual path to this repository.
-
-### Codex
-
-```bash
-mv ~/.codex ~/.codex-backup 2>/dev/null; true
-ln -s /path/to/ai-dotfiles/.config/codex ~/.codex
-mkdir -p ~/.agents
-ln -s /path/to/ai-dotfiles/skills ~/.agents/skills
-```
-
-Replace `/path/to/ai-dotfiles` with the actual path to this repository.
-
-### Dependencies
+Then install dependencies:
 
 ```bash
 cd ~/.config/opencode && npm install
 ```
 
-This installs the opencode plugin system and Chrome DevTools MCP integration.
+See the [installation guide](https://bdbch.github.io/ai-dotfiles/install/) for full instructions.
 
-### Verify
+## What's Inside
 
-```bash
-ls -la ~/.config/opencode
-ls ~/.config/opencode/node_modules/.package-lock.json
-```
+- **18 agents** — code review, architecture, browser testing, security, design, docs, and more
+- **5 skill bundles** — browser debug, design review, accessibility audit, testing, code review
+- **Multi-platform** — same config shared across opencode, Claude, and Codex via symlinks
+- **MCP integrations** — Chrome DevTools (enabled), Linear + Notion (optional)
 
-## Custom Agents
-
-All agents live in [`agents/`](agents/) and are available in opencode.
-
-## Skills
-
-Skill bundles live in [`skills/`](skills/).
-
-## MCPs
-
-MCP configuration is in [`.config/opencode/opencode.json`](.config/opencode/opencode.json). Chrome DevTools MCP is enabled by default. Linear and Notion MCPs are included but disabled — toggle them via `/mcps` in opencode. On first run, Notion requires OAuth login via `opencode mcp auth Notion`.
-
-## Configuration
-
-The main config is `opencode.json`. Current setup:
-
-- Default agent: `plan` (starts every conversation in planning mode)
+Browse agents, skills, and config in the [documentation](https://bdbch.github.io/ai-dotfiles/).
