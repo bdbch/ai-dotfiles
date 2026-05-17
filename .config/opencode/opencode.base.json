@@ -21,7 +21,11 @@
     "GitHub": {
       "type": "remote",
       "enabled": false,
-      "url": "https://api.githubcopilot.com/mcp/"
+      "url": "https://api.githubcopilot.com/mcp/",
+      "oauth": false,
+      "headers": {
+        "Authorization": "Bearer {file:~/.config/opencode/.secrets/github-pat}"
+      }
     }
   }
 }

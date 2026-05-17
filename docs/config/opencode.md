@@ -43,7 +43,11 @@ The opencode configuration lives in `.config/opencode/` and is the primary setup
     "GitHub": {
       "type": "remote",
       "enabled": false,
-      "url": "https://api.githubcopilot.com/mcp/"
+      "url": "https://api.githubcopilot.com/mcp/",
+      "oauth": false,
+      "headers": {
+        "Authorization": "Bearer {file:~/.config/opencode/.secrets/github-pat}"
+      }
     }
   }
 }
@@ -98,8 +102,60 @@ Removing entries from `opencode.json` is safe — nothing in the repo references
 |-----|---------|-----|
 | Google Chrome MCP | Always enabled | Browser automation, debugging, testing |
 | Linear MCP | Disabled | Issue tracking (set `enabled: true` to turn on) |
-| GitHub | Disabled | GitHub API access (set `enabled: true` to turn on) |
+| GitHub | Disabled | GitHub API access (set `enabled: true`, requires PAT in `~/.config/opencode/.secrets/github-pat` — see setup instructions below) |
 | Notion | Disabled | Documentation (set `enabled: true`, then run `opencode mcp auth Notion`) |
+
+### Setting up GitHub MCP
+
+GitHub MCP connects via the remote endpoint at `https://api.githubcopilot.com/mcp/` using a Personal Access Token (PAT) for authentication. OAuth auto-detection is disabled (`"oauth": false`) because GitHub's OAuth doesn't support dynamic client registration.
+
+**1. Create a GitHub PAT**
+
+Go to [github.com/settings/personal-access-tokens/new](https://github.com/settings/personal-access-tokens/new) and create a fine-grained PAT with these minimal scopes:
+
+- `Metadata`: Read-only
+- `Contents`: Read and write
+- `Issues`: Read and write
+- `Pull requests`: Read and write
+
+**2. Store it in a secret file**
+
+```bash
+mkdir -p ~/.config/opencode/.secrets
+chmod 700 ~/.config/opencode/.secrets
+# Paste your PAT into this file (one line, no newline):
+printf 'your_pat_here' > ~/.config/opencode/.secrets/github-pat
+chmod 600 ~/.config/opencode/.secrets/github-pat
+```
+
+**3. Enable in your config**
+
+In `~/.config/opencode/opencode.json`, set `"enabled": true`:
+
+```json
+"GitHub": {
+  "type": "remote",
+  "enabled": true,
+  "url": "https://api.githubcopilot.com/mcp/",
+  "oauth": false,
+  "headers": {
+    "Authorization": "Bearer {file:~/.config/opencode/.secrets/github-pat}"
+  }
+}
+```
+
+**4. Verify**
+
+```bash
+opencode mcp list
+opencode mcp debug GitHub --log-level DEBUG
+```
+
+Then test it inside opencode:
+
+```
+List my GitHub repositories using github mcp tools.
+```
 
 ## Package Dependencies
 
