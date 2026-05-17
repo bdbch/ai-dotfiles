@@ -10,7 +10,7 @@ Tons of agents live in `agents/` and are available in opencode. They share a com
 | **Planning** | [Architecture Planner](/agents/architecture-planner), [Test Strategist](/agents/test-strategist), [Regression Hunter](/agents/regression-hunter) |
 | **Testing** | [Browser Tester](/agents/browser-tester), [Performance Investigator](/agents/performance-investigator) |
 | **Design** | [Design Reviewer](/agents/design-reviewer) |
-| **Content** | [Changelog Writer](/agents/changelog-writer), [Documentation Writer](/agents/documentation-writer), [Idea Finder](/agents/idea-finder) |
+| **Content** | [Changelog Writer](/agents/changelog-writer), [Content Writer](/agents/content-writer), [Documentation Writer](/agents/documentation-writer), [Idea Finder](/agents/idea-finder) |
 | **Marketing / SEO** | [SEO Expert](/agents/seo-expert) |
 | **Triage** | [Issue Triage Agent](/agents/issue-triage-agent), [Dependency Upgrade Scout](/agents/dependency-upgrade-scout) |
 | **Explore** | [Codebase Explorer](/agents/codebase-explorer), [Web Browser](/agents/web-browser) |
@@ -28,6 +28,7 @@ Tons of agents live in `agents/` and are available in opencode. They share a com
 - [Dependency Upgrade Scout](/agents/dependency-upgrade-scout) — Investigate dependency-related bugs and plan upgrades
 - [Design Reviewer](/agents/design-reviewer) — Comprehensive design review covering visual polish, UX, and interaction quality
 - [Documentation Writer](/agents/documentation-writer) — Produce and improve technical documentation
+- [Content Writer](/agents/content-writer) — Write human-facing text, blog content, website copy, and microcopy
 - [Idea Finder](/agents/idea-finder) — Creative product thinking and feature ideation
 - [SEO Expert](/agents/seo-expert) — Comprehensive SEO audits, keyword research, and optimization plans
 - [Issue Triage Agent](/agents/issue-triage-agent) — Classify and prioritize incoming issues
