@@ -16,7 +16,7 @@ Each agent defines:
 | **Quality** | code-reviewer, security-reviewer, accessibility-auditor, api-dx-reviewer, typescript-type-reviewer |
 | **Planning** | architecture-planner, test-strategist, regression-hunter |
 | **Testing** | browser-tester, performance-investigator |
-| **Design** | design-reviewer, design-polish-reviewer |
+| **Design** | design-reviewer |
 | **Content** | documentation-writer, idea-finder |
 | **Triage** | issue-triage-agent, dependency-upgrade-scout |
 | **Explore** | codebase-explorer |

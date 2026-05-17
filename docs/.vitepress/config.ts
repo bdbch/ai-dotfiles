@@ -52,10 +52,6 @@ export default defineConfig({
             },
             { text: "Design Reviewer", link: "/agents/design-reviewer" },
             {
-              text: "Design Polish Reviewer",
-              link: "/agents/design-polish-reviewer",
-            },
-            {
               text: "Documentation Writer",
               link: "/agents/documentation-writer",
             },

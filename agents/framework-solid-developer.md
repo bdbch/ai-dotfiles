@@ -5,7 +5,7 @@ description: >-
   components, optimizing signal granularity, reviewing Solid code for
   anti-patterns, or designing component composition with fine-grained
   reactivity.
-name: solid-developer
+name: Solid Developer
 mode: all
 permission:
   edit: allow

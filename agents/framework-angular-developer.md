@@ -4,7 +4,7 @@ description: >-
   optimization, and code review. Examples include: building a new component,
   choosing between signals and RxJS, optimizing change detection, reviewing
   Angular code for anti-patterns, or designing service and DI architecture.
-name: angular-developer
+name: Angular Developer
 mode: all
 permission:
   edit: allow

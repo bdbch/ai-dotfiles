@@ -7,7 +7,7 @@ description: >-
   user or developer experience, simplifying complexity, discovering
   opportunities to delight users, or figuring out what to build next to make the
   product stronger.
-name: idea-finder
+name: Idea Finder
 mode: all
 permission:
   edit: deny

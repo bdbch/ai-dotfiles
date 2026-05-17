@@ -3,7 +3,7 @@ description: >-
   Use this agent for any coding task. It works like a peer programmer —
   plans first, implements one step at a time, waits for approval after every
   change. Never oneshots.
-name: peer-programmer
+name: Peer Programmer
 mode: all
 permission:
   edit: allow

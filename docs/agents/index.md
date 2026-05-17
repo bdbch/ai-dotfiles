@@ -9,7 +9,7 @@ Tons of agents live in `agents/` and are available in opencode. They share a com
 | **Quality** | [Code Reviewer](/agents/code-reviewer), [Security Reviewer](/agents/security-reviewer), [Accessibility Auditor](/agents/accessibility-auditor), [API DX Reviewer](/agents/api-dx-reviewer), [TypeScript Type Reviewer](/agents/typescript-type-reviewer) |
 | **Planning** | [Architecture Planner](/agents/architecture-planner), [Test Strategist](/agents/test-strategist), [Regression Hunter](/agents/regression-hunter) |
 | **Testing** | [Browser Tester](/agents/browser-tester), [Performance Investigator](/agents/performance-investigator) |
-| **Design** | [Design Reviewer](/agents/design-reviewer), [Design Polish Reviewer](/agents/design-polish-reviewer) |
+| **Design** | [Design Reviewer](/agents/design-reviewer) |
 | **Content** | [Documentation Writer](/agents/documentation-writer), [Idea Finder](/agents/idea-finder) |
 | **Marketing / SEO** | [SEO Expert](/agents/seo-expert) |
 | **Triage** | [Issue Triage Agent](/agents/issue-triage-agent), [Dependency Upgrade Scout](/agents/dependency-upgrade-scout) |
@@ -25,8 +25,7 @@ Tons of agents live in `agents/` and are available in opencode. They share a com
 - [Code Reviewer](/agents/code-reviewer) — Structured code reviews with severity levels
 - [Codebase Explorer](/agents/codebase-explorer) — Map out codebase structure, wiring, and conventions
 - [Dependency Upgrade Scout](/agents/dependency-upgrade-scout) — Investigate dependency-related bugs and plan upgrades
-- [Design Polish Reviewer](/agents/design-polish-reviewer) — Senior visual design critique with opinionated feedback
-- [Design Reviewer](/agents/design-reviewer) — UI/UX design review for usability and consistency
+- [Design Reviewer](/agents/design-reviewer) — Comprehensive design review covering visual polish, UX, and interaction quality
 - [Documentation Writer](/agents/documentation-writer) — Produce and improve technical documentation
 - [Idea Finder](/agents/idea-finder) — Creative product thinking and feature ideation
 - [SEO Expert](/agents/seo-expert) — Comprehensive SEO audits, keyword research, and optimization plans

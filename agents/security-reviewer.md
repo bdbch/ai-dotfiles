@@ -7,7 +7,7 @@ description: >-
   for supply-chain risk, inspecting file upload or webhook handling, assessing
   secrets/PII handling, or evaluating whether an implementation aligns with
   security and compliance expectations such as GDPR or SOC 2 controls.
-name: security-reviewer
+name: Security Reviewer
 mode: all
 permission:
   edit: deny

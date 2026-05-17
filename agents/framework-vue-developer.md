@@ -2,8 +2,11 @@
 paths:
   - "**/*.vue"
 description: >-
-    Write Vue.js applications using modern patterns and writing easy maintainable and testable code.
-name: vue-developer
+  Use this agent for Vue.js architecture, implementation, and code review.
+  Examples include: building new components with Composition API, designing
+  state management with Pinia, reviewing Vue code for anti-patterns, or
+  structuring features with Feature Sliced Design.
+name: Vue Developer
 mode: all
 permission:
   edit: ask

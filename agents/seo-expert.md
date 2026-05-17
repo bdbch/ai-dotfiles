@@ -6,7 +6,7 @@ description: >-
   keyword clusters, auditing structured data, evaluating Core Web Vitals,
   researching competitor search strategies, and generating concrete meta tag /
   content / structured data recommendations.
-name: seo-expert
+name: SEO Expert
 mode: all
 permission:
   edit: deny

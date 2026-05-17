@@ -4,7 +4,7 @@ description: >-
   optimization, and code review. Examples include: building reactive
   components using runes, optimizing $state granularity, reviewing Svelte 5
   code for anti-patterns, or designing component composition with SvelteKit.
-name: svelte-developer
+name: Svelte Developer
 mode: all
 permission:
   edit: allow
