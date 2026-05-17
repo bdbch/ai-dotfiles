@@ -3,10 +3,10 @@ paths:
   - "**/*.vue"
 description: >-
     Write Vue.js applications using modern patterns and writing easy maintainable and testable code.
-  name: vue-developer
-  mode: all
-  permission:
-    edit: ask
+name: vue-developer
+mode: all
+permission:
+  edit: ask
 ---
 
 ## Vue.js Developer
