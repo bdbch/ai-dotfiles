@@ -84,43 +84,15 @@ ls ~/.config/opencode/node_modules/.package-lock.json
 
 ## Custom Agents
 
-All agents live in `agents/` and are available in opencode:
-
-| Agent | Description |
-|-------|-------------|
-| accessibility-auditor | Systematic WCAG accessibility audit |
-| api-dx-reviewer | Review public API surfaces (functions, hooks, exports) |
-| architecture-planner | Design modules, evaluate tradeoffs before coding |
-| browser-tester | Manual end-to-end browser testing |
-| code-reviewer | Structured code review with severity levels |
-| codebase-explorer | Map out project structure and conventions |
-| dependency-upgrade-scout | Investigate dependency issues and plan upgrades |
-| design-reviewer | UI/UX design critique |
-| documentation-writer | Write API docs, READMEs, JSDoc, migration guides |
-| issue-triage-agent | Classify and prioritize incoming issues |
-| performance-investigator | Debug page load, Core Web Vitals, bundle size |
-| regression-hunter | Detect ripple effects after bugfixes or refactors |
-| test-strategist | Plan test coverage for features and modules |
-| typescript-type-reviewer | Review TypeScript types for correctness and safety |
+All agents live in [`agents/`](agents/) and are available in opencode.
 
 ## Skills
 
-Skill bundles in `skills/`:
-
-- **Accessibility Review** — WCAG audit, keyboard nav, contrast, ARIA, screen reader compatibility
-- **Browser Debug** — Diagnose console errors, network issues, performance regressions
-- **Browser Design Review** — Senior UI/UX design critique
-- **Browser Test** — Manual end-to-end feature testing via Chrome
-- **Code Review** — Best practices, bug detection, code quality feedback
+Skill bundles live in [`skills/`](skills/).
 
 ## MCPs
 
-The Opencode setup comes with pre-setup MCPs.
-
-- Chrome DevTools MCP: enabled via `chrome-devtools-mcp`
-- Linear MCP: included but **disabled by default**. To enable it, run `/mcps` in opencode and toggle Linear MCP on.
-- Notion MCP: included but **disabled by default**. To enable it, run `/mcps` in opencode and toggle Linear MCP on.
-    - On first run, the MCP will require you to login via OAuth. To do so, run `opencode mcp auth Notion`
+MCP configuration is in [`.config/opencode/opencode.json`](.config/opencode/opencode.json). Chrome DevTools MCP is enabled by default. Linear and Notion MCPs are included but disabled — toggle them via `/mcps` in opencode. On first run, Notion requires OAuth login via `opencode mcp auth Notion`.
 
 ## Configuration
 
