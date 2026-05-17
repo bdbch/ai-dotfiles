@@ -1,6 +1,6 @@
 # Agents
 
-All 18 agents live in `agents/` and are available in opencode. They share a common peer-programming workflow defined in `AGENTS.md`.
+All 19 agents live in `agents/` and are available in opencode. They share a common peer-programming workflow defined in `AGENTS.md`.
 
 ## Agent Categories
 
@@ -11,6 +11,7 @@ All 18 agents live in `agents/` and are available in opencode. They share a comm
 | **Testing** | [Browser Tester](/agents/browser-tester), [Performance Investigator](/agents/performance-investigator) |
 | **Design** | [Design Reviewer](/agents/design-reviewer), [Design Polish Reviewer](/agents/design-polish-reviewer) |
 | **Content** | [Documentation Writer](/agents/documentation-writer), [Idea Finder](/agents/idea-finder) |
+| **Marketing / SEO** | [SEO Expert](/agents/seo-expert) |
 | **Triage** | [Issue Triage Agent](/agents/issue-triage-agent), [Dependency Upgrade Scout](/agents/dependency-upgrade-scout) |
 | **Explore** | [Codebase Explorer](/agents/codebase-explorer) |
 | **Coding** | [Peer Programmer](/agents/peer-programmer) |
@@ -38,6 +39,7 @@ The same agent definitions are available in all three supported tools:
 - [Design Reviewer](/agents/design-reviewer) — UI/UX design review for usability and consistency
 - [Documentation Writer](/agents/documentation-writer) — Produce and improve technical documentation
 - [Idea Finder](/agents/idea-finder) — Creative product thinking and feature ideation
+- [SEO Expert](/agents/seo-expert) — Comprehensive SEO audits, keyword research, and optimization plans
 - [Issue Triage Agent](/agents/issue-triage-agent) — Classify and prioritize incoming issues
 - [Peer Programmer](/agents/peer-programmer) — One-step-at-a-time pair programming
 - [Performance Investigator](/agents/performance-investigator) — Diagnose load time, jank, and Core Web Vitals
