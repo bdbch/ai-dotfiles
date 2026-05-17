@@ -15,7 +15,7 @@ hero:
 
 features:
   - icon: 🤖
-    title: 18 Custom Agents
+    title: Tons of Custom Agents
     details: Specialized agents for code review, architecture planning, browser testing, security review, and more — all with a shared peer-programming workflow.
   - icon: 🧩
     title: Reusable Skills

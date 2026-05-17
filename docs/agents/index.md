@@ -10,7 +10,7 @@ Tons of agents live in `agents/` and are available in opencode. They share a com
 | **Planning** | [Architecture Planner](/agents/architecture-planner), [Test Strategist](/agents/test-strategist), [Regression Hunter](/agents/regression-hunter) |
 | **Testing** | [Browser Tester](/agents/browser-tester), [Performance Investigator](/agents/performance-investigator) |
 | **Design** | [Design Reviewer](/agents/design-reviewer) |
-| **Content** | [Documentation Writer](/agents/documentation-writer), [Idea Finder](/agents/idea-finder) |
+| **Content** | [Changelog Writer](/agents/changelog-writer), [Documentation Writer](/agents/documentation-writer), [Idea Finder](/agents/idea-finder) |
 | **Marketing / SEO** | [SEO Expert](/agents/seo-expert) |
 | **Triage** | [Issue Triage Agent](/agents/issue-triage-agent), [Dependency Upgrade Scout](/agents/dependency-upgrade-scout) |
 | **Explore** | [Codebase Explorer](/agents/codebase-explorer), [Web Browser](/agents/web-browser) |
@@ -22,6 +22,7 @@ Tons of agents live in `agents/` and are available in opencode. They share a com
 - [API DX Reviewer](/agents/api-dx-reviewer) — Public API surface reviews for libraries and modules
 - [Architecture Planner](/agents/architecture-planner) — Design and evaluate architectural decisions before coding
 - [Browser Tester](/agents/browser-tester) — Manual end-to-end testing via Chrome MCP
+- [Changelog Writer](/agents/changelog-writer) — Generate, format, and maintain changelogs and Changeset files
 - [Code Reviewer](/agents/code-reviewer) — Structured code reviews with severity levels
 - [Codebase Explorer](/agents/codebase-explorer) — Map out codebase structure, wiring, and conventions
 - [Dependency Upgrade Scout](/agents/dependency-upgrade-scout) — Investigate dependency-related bugs and plan upgrades
