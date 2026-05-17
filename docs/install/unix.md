@@ -10,6 +10,7 @@ Run the installer scripts from the repository root:
 sh ./installers/opencode.sh   # opencode
 sh ./installers/claude.sh     # Claude Desktop
 sh ./installers/codex.sh      # Codex
+sh ./installers/copilot.sh    # GitHub Copilot
 ```
 
 Each installer:
@@ -33,6 +34,11 @@ Creates:
 Creates:
 - `~/.codex → <repo>/.config/codex`
 - `~/.agents/skills → <repo>/skills`
+
+### Copilot
+
+Creates:
+- `~/.copilot → <repo>/.config/copilot`
 
 ## Manual Install
 
@@ -60,6 +66,13 @@ mv ~/.codex ~/.codex-backup 2>/dev/null; true
 ln -s /path/to/ai-dotfiles/.config/codex ~/.codex
 mkdir -p ~/.agents
 ln -s /path/to/ai-dotfiles/skills ~/.agents/skills
+```
+
+### Copilot
+
+```bash
+mv ~/.copilot ~/.copilot-backup 2>/dev/null; true
+ln -s /path/to/ai-dotfiles/.config/copilot ~/.copilot
 ```
 
 Replace `/path/to/ai-dotfiles` with the actual path to this repository.

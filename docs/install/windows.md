@@ -56,6 +56,12 @@ mkdir "%USERPROFILE%\.agents" 2>$null
 mklink /J "%USERPROFILE%\.agents\skills" "C:\dev\ai-dotfiles\skills"
 ```
 
+### Copilot
+
+```powershell
+mklink /J "%USERPROFILE%\.copilot" "C:\dev\ai-dotfiles\.config\copilot"
+```
+
 ## Dependencies
 
 After installing, install the opencode plugin dependencies:

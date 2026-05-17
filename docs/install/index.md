@@ -1,6 +1,6 @@
 # Installation
 
-AI Dotfiles uses symlinks to keep configuration in one place while making it available to all three AI tools.
+AI Dotfiles uses symlinks to keep configuration in one place while making it available to all four AI tools.
 
 Choose your operating system:
 
