@@ -20,6 +20,8 @@ Each installer:
 
 Creates: `~/.config/opencode → <repo>/.config/opencode`
 
+On first run, `opencode.base.json` is copied to `opencode.json` automatically. Edit `opencode.json` freely — it's git-ignored and won't be overwritten on re-runs.
+
 ### Claude
 
 Creates:

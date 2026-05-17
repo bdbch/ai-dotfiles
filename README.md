@@ -27,6 +27,6 @@ See the [installation guide](https://bdbch.github.io/ai-dotfiles/install/) for f
 - **18 agents** — code review, architecture, browser testing, security, design, docs, and more
 - **5 skill bundles** — browser debug, design review, accessibility audit, testing, code review
 - **Multi-platform** — same config shared across opencode, Claude, and Codex via symlinks
-- **MCP integrations** — Chrome DevTools (enabled), Linear + Notion (optional)
+- **MCP integrations** — Chrome DevTools (always on), Linear, GitHub, Notion (pre-configured, opt-in via `opencode.json`)
 
 Browse agents, skills, and config in the [documentation](https://bdbch.github.io/ai-dotfiles/).

@@ -33,6 +33,14 @@ Then create junctions for each tool:
 mklink /J "%USERPROFILE%\.config\opencode" "C:\dev\ai-dotfiles\.config\opencode"
 ```
 
+After creating the junction, copy the base config to create your editable config:
+
+```powershell
+copy "$env:USERPROFILE\.config\opencode\opencode.base.json" "$env:USERPROFILE\.config\opencode\opencode.json"
+```
+
+Edit `opencode.json` freely — it's git-ignored and won't be overwritten.
+
 ### Claude
 
 ```powershell
