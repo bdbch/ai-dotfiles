@@ -29,5 +29,11 @@ fi
 echo "Creating symbolic link for Opencode configuration..."
 ln -s "$REPO_ROOT/.config/opencode" "$OPENCODE_DIR"
 
+# Copy the base config if no personal config exists yet
+if [ ! -f "$OPENCODE_DIR/opencode.json" ]; then
+    echo "Creating default opencode.json from opencode.base.json..."
+    cp "$OPENCODE_DIR/opencode.base.json" "$OPENCODE_DIR/opencode.json"
+fi
+
 echo "Opencode configuration has been set up successfully."
 echo "You can find the new configuration at $OPENCODE_DIR"
