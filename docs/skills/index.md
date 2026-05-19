@@ -13,3 +13,4 @@ Skills live in `skills/` and are symlinked to `~/.config/opencode/skills/` on in
 | [Browser Design Review](/skills/browser-design-review) | Senior UI/UX design critique — visual hierarchy, typography, spacing, layout, brand fit |
 | [Browser Test](/skills/browser-test) | Manual end-to-end testing — navigate, click, type, verify like a human QA engineer |
 | [Code Review](/skills/code-review) | Structured feedback on best practices, potential bugs, regression risk, and code quality |
+| [GitHub Issue Labeler](/skills/github-issue-labeler) | Finds unlabeled issues, plans labels from the existing pool, and applies them after user confirmation |
