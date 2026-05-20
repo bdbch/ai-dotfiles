@@ -13,8 +13,8 @@ Tons of agents live in `agents/` and are available in opencode. They share a com
 | **Content** | [Changelog Writer](/agents/changelog-writer), [Content Writer](/agents/content-writer), [Documentation Writer](/agents/documentation-writer), [Idea Finder](/agents/idea-finder) |
 | **Marketing / SEO** | [SEO Expert](/agents/seo-expert) |
 | **Triage** | [Issue Triage Agent](/agents/issue-triage-agent), [Dependency Upgrade Scout](/agents/dependency-upgrade-scout) |
-| **Explore** | [Codebase Explorer](/agents/codebase-explorer), [Web Browser](/agents/web-browser) |
-| **Coding** | [Peer Programmer](/agents/peer-programmer) |
+| **Explore** | [Codebase Explorer](/agents/codebase-explorer), [CodeWiki](/agents/code-wiki), [CodeMap](/agents/code-map), [Web Browser](/agents/web-browser) |
+| **Coding** | [Peer Programmer](/agents/peer-programmer), [Vibe](/agents/vibe) |
 
 ## All Agents
 
@@ -39,3 +39,6 @@ Tons of agents live in `agents/` and are available in opencode. They share a com
 - [Test Strategist](/agents/test-strategist) — Plan test coverage at unit, integration, and e2e levels
 - [TypeScript Type Reviewer](/agents/typescript-type-reviewer) — Review TypeScript types for safety and precision
 - [Web Browser](/agents/web-browser) — Public web research via WebFetch, no local access
+- [CodeWiki](/agents/code-wiki) — Wikipedia-style explanations of code symbols
+- [CodeMap](/agents/code-map) — Visual maps of code execution flow and component relationships
+- [Vibe](/agents/vibe) — Fast-mode implementation with continuous changes and summaries
