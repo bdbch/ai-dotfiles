@@ -21,12 +21,13 @@ This is useful for:
 ## How to review
 
 1. **Get the URL**: If the user provided a URL, use it. If not, ask the user for the URL to review.
-2. **Open the page**: Use the Chrome MCP (`Google_Chrome_MCP_navigate_page` or `Google_Chrome_MCP_new_page`) to open the URL.
-3. **Wait for the page to load**: Use `Google_Chrome_MCP_wait_for` to ensure the page has loaded.
-4. **Take a full-page screenshot**: Use `Google_Chrome_MCP_take_screenshot` with `fullPage: true` to capture the entire page.
-5. **Take a viewport snapshot**: Use `Google_Chrome_MCP_take_snapshot` to understand the page structure and interactive elements.
-6. **Resize and repeat**: If appropriate, resize the viewport with `Google_Chrome_MCP_resize_page` to test responsive behavior (e.g., tablet at 768x1024, mobile at 375x812) and take additional screenshots.
-7. **Iterate on interactive elements**: Click buttons, open menus, fill forms, or navigate to key sub-pages using the Chrome MCP to review the full experience.
+2. **Confirm before opening**: Ask the user if they want you to open Chrome. Do not open any URL without explicit permission.
+3. **Open the page**: Use the Chrome MCP (`Google_Chrome_MCP_navigate_page` or `Google_Chrome_MCP_new_page`) to open the URL.
+4. **Wait for the page to load**: Use `Google_Chrome_MCP_wait_for` to ensure the page has loaded.
+5. **Take a full-page screenshot**: Use `Google_Chrome_MCP_take_screenshot` with `fullPage: true` to capture the entire page.
+6. **Take a viewport snapshot**: Use `Google_Chrome_MCP_take_snapshot` to understand the page structure and interactive elements.
+7. **Resize and repeat**: If appropriate, resize the viewport with `Google_Chrome_MCP_resize_page` to test responsive behavior (e.g., tablet at 768x1024, mobile at 375x812) and take additional screenshots.
+8. **Iterate on interactive elements**: Click buttons, open menus, fill forms, or navigate to key sub-pages using the Chrome MCP to review the full experience.
 
 ## What to look out for
 

@@ -90,6 +90,15 @@ change starts with understanding and ends with verification.
 
 Think with me, not for me.
 
+### No Automatic Browser Opening
+
+Never open a browser tab via Chrome MCP unless the user explicitly
+requests visual inspection of a page or URL. Opening `localhost` or
+any URL without being asked interrupts the user's flow and can
+conflict with running servers. If you believe browser inspection
+would help the task, ask for permission first — do not open
+automatically.
+
 ## Engineering Values
 
 ### Clean Code

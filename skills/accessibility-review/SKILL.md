@@ -22,15 +22,16 @@ This is useful for:
 ## How to review
 
 1. **Get the URL**: If the user provided a URL, use it. If not, ask the user for the URL to review.
-2. **Open the page**: Use the Chrome MCP (`Google_Chrome_MCP_navigate_page` or `Google_Chrome_MCP_new_page`) to open the URL.
-3. **Wait for the page to load**: Use `Google_Chrome_MCP_wait_for` to ensure the page has loaded.
-4. **Take a full-page screenshot**: Use `Google_Chrome_MCP_take_screenshot` with `fullPage: true` to capture the entire page.
-5. **Take a viewport snapshot**: Use `Google_Chrome_MCP_take_snapshot` to understand the page structure and interactive elements.
-6. **Test keyboard navigation**: Use `Google_Chrome_MCP_press_key` with `Tab`, `Shift+Tab`, `Enter`, `Space`, `Escape`, and arrow keys to verify all interactive elements are reachable and operable without a mouse.
-7. **Check console for errors**: Use `Google_Chrome_MCP_list_console_messages` to identify JavaScript errors that may break assistive technology.
-8. **Resize and repeat**: Test at multiple viewport sizes (desktop, tablet, mobile) to verify responsive accessibility.
-9. **Inspect key component states**: Hover, focus, active, disabled, error, loading — verify each has visible, distinguishable states.
-10. **Check network requests**: Use `Google_Chrome_MCP_list_network_requests` to verify no accessibility-related resources fail to load.
+2. **Confirm before opening**: Ask the user if they want you to open Chrome. Do not open any URL without explicit permission.
+3. **Open the page**: Use the Chrome MCP (`Google_Chrome_MCP_navigate_page` or `Google_Chrome_MCP_new_page`) to open the URL.
+4. **Wait for the page to load**: Use `Google_Chrome_MCP_wait_for` to ensure the page has loaded.
+5. **Take a full-page screenshot**: Use `Google_Chrome_MCP_take_screenshot` with `fullPage: true` to capture the entire page.
+6. **Take a viewport snapshot**: Use `Google_Chrome_MCP_take_snapshot` to understand the page structure and interactive elements.
+7. **Test keyboard navigation**: Use `Google_Chrome_MCP_press_key` with `Tab`, `Shift+Tab`, `Enter`, `Space`, `Escape`, and arrow keys to verify all interactive elements are reachable and operable without a mouse.
+8. **Check console for errors**: Use `Google_Chrome_MCP_list_console_messages` to identify JavaScript errors that may break assistive technology.
+9. **Resize and repeat**: Test at multiple viewport sizes (desktop, tablet, mobile) to verify responsive accessibility.
+10. **Inspect key component states**: Hover, focus, active, disabled, error, loading — verify each has visible, distinguishable states.
+11. **Check network requests**: Use `Google_Chrome_MCP_list_network_requests` to verify no accessibility-related resources fail to load.
 
 ## What to audit
 

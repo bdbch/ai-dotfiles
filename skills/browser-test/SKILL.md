@@ -23,12 +23,13 @@ This is useful for:
 
 1. **Understand the spec**: Read the user's feature description, bug report, or test scenario. Identify the key actions and expected outcomes.
 2. **Ask for clarification if needed**: If the spec is ambiguous or missing critical details (URL, credentials, test data), ask the user before proceeding.
-3. **Open the page**: Use `Google_Chrome_MCP_new_page` (with optional `isolatedContext` for login state isolation) to open the application URL.
-4. **Execute each step sequentially**: For each step in the test scenario, perform the action and verify the result before moving on.
-5. **Inspect the UI state**: After each action, use `Google_Chrome_MCP_take_snapshot` to read the current page state and verify expected elements are present.
-6. **Capture evidence**: Use `Google_Chrome_MCP_take_screenshot` to document key states — before interaction, after interaction, success states, error states.
-7. **Check for errors**: Periodically use `Google_Chrome_MCP_list_console_messages` to catch JavaScript errors that occur during testing.
-8. **Report results**: After all steps, summarize what passed, what failed, and any observations.
+3. **Confirm before opening**: Ask the user if they want you to open Chrome. Do not open any URL without explicit permission.
+4. **Open the page**: Use `Google_Chrome_MCP_new_page` (with optional `isolatedContext` for login state isolation) to open the application URL.
+5. **Execute each step sequentially**: For each step in the test scenario, perform the action and verify the result before moving on.
+6. **Inspect the UI state**: After each action, use `Google_Chrome_MCP_take_snapshot` to read the current page state and verify expected elements are present.
+7. **Capture evidence**: Use `Google_Chrome_MCP_take_screenshot` to document key states — before interaction, after interaction, success states, error states.
+8. **Check for errors**: Periodically use `Google_Chrome_MCP_list_console_messages` to catch JavaScript errors that occur during testing.
+9. **Report results**: After all steps, summarize what passed, what failed, and any observations.
 
 ## What to test for
 

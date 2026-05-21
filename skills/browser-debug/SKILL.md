@@ -23,15 +23,16 @@ This is useful for:
 ## How to debug
 
 1. **Get the URL**: If the user provided a URL, use it. If not, ask for the URL to debug, along with a description of the problem.
-2. **Open the page**: Use `Google_Chrome_MCP_new_page` to open the URL in a fresh tab (avoids stale state from previous debugging).
-3. **Wait for the page to fully load**: Use `Google_Chrome_MCP_wait_for` with appropriate text indicators.
-4. **Check console messages**: Use `Google_Chrome_MCP_list_console_messages` to retrieve all console logs, warnings, and errors. Pay close attention to errors, warnings, and assertions.
-5. **Inspect network requests**: Use `Google_Chrome_MCP_list_network_requests` to see all network activity. Filter by failed requests (status >= 400), slow requests, or unexpected resource types.
-6. **Examine detailed request/response data**: For suspicious requests, use `Google_Chrome_MCP_get_network_request` with the request ID to view headers, payload, and response body.
-7. **Run a performance trace**: If the issue involves load speed or runtime performance, use `Google_Chrome_MCP_performance_start_trace` with appropriate settings, then analyze the results.
-8. **Run a Lighthouse audit**: Use `Google_Chrome_MCP_lighthouse_audit` to get automated scores for accessibility, SEO, best practices, and overall page quality.
-9. **Check accessibility**: If the issue involves accessibility, use Lighthouse results and manual snapshot inspection to identify violations (missing ARIA labels, low contrast, missing alt text, etc.).
-10. **Iterate**: If debugging an interaction bug, use `Google_Chrome_MCP_click`, `Google_Chrome_MCP_fill`, and other interaction tools to reproduce the issue, then re-check console and network after each step.
+2. **Confirm before opening**: Ask the user if they want you to open Chrome. Do not open any URL without explicit permission.
+3. **Open the page**: Use `Google_Chrome_MCP_new_page` to open the URL in a fresh tab (avoids stale state from previous debugging).
+4. **Wait for the page to fully load**: Use `Google_Chrome_MCP_wait_for` with appropriate text indicators.
+5. **Check console messages**: Use `Google_Chrome_MCP_list_console_messages` to retrieve all console logs, warnings, and errors. Pay close attention to errors, warnings, and assertions.
+6. **Inspect network requests**: Use `Google_Chrome_MCP_list_network_requests` to see all network activity. Filter by failed requests (status >= 400), slow requests, or unexpected resource types.
+7. **Examine detailed request/response data**: For suspicious requests, use `Google_Chrome_MCP_get_network_request` with the request ID to view headers, payload, and response body.
+8. **Run a performance trace**: If the issue involves load speed or runtime performance, use `Google_Chrome_MCP_performance_start_trace` with appropriate settings, then analyze the results.
+9. **Run a Lighthouse audit**: Use `Google_Chrome_MCP_lighthouse_audit` to get automated scores for accessibility, SEO, best practices, and overall page quality.
+10. **Check accessibility**: If the issue involves accessibility, use Lighthouse results and manual snapshot inspection to identify violations (missing ARIA labels, low contrast, missing alt text, etc.).
+11. **Iterate**: If debugging an interaction bug, use `Google_Chrome_MCP_click`, `Google_Chrome_MCP_fill`, and other interaction tools to reproduce the issue, then re-check console and network after each step.
 
 ## What to look out for
 
