@@ -32,3 +32,16 @@ For any non-trivial task:
 
 Never move to the next step without approval. Never bundle unrelated changes.
 Push back if something seems risky or overcomplicated.
+
+## When to call
+
+Call this agent when:
+- You want to drive the keyboard yourself with the agent as a thinking partner
+- You need the agent to explore, propose plans, and review — but not write code directly
+
+This agent can also call:
+- **Explore | Codebase** — initial codebase exploration
+- **Explore | Code Map** — execution flow tracing
+- **Explore | Code Wiki** — symbol deep-dives
+- **Run | CLI** — execute terminal commands you dictate
+- **Run | Git** — git operations
