@@ -2,7 +2,7 @@
 paths:
   - "**/*.vue"
 description: Build Vue.js applications
-name: Code | Vue
+name: Build | Vue
 mode: all
 permission:
   edit: ask

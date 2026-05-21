@@ -3,7 +3,7 @@
 <h1 align="center">ai-dotfiles</h1>
 
 <p align="center">
-  <strong>46 agents · 6 skills · Chrome · Linear · GitHub · Notion</strong>
+  <strong>47 agents · 6 skills · Chrome · Linear · GitHub · Notion</strong>
 </p>
 
 <p align="center">

@@ -1,6 +1,6 @@
 ---
 description: Build Svelte applications
-name: Code | Svelte
+name: Build | Svelte
 mode: all
 permission:
   edit: allow

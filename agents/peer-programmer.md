@@ -1,6 +1,6 @@
 ---
 description: Pair program step-by-step
-name: Code | Paired
+name: Build | Paired
 mode: all
 permission:
   edit: deny

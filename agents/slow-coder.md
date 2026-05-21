@@ -1,6 +1,6 @@
 ---
 description: Slow, deliberate coding with conversation between steps
-name: Code | Slow
+name: Build | Slow
 mode: all
 permission:
   edit: allow

@@ -1,6 +1,6 @@
 ---
 description: Split large files into focused, well-named modules
-name: Code | Restructure
+name: Build | Restructure
 mode: all
 permission:
   edit: allow

@@ -1,6 +1,6 @@
 ---
 description: Build Angular applications
-name: Code | Angular
+name: Build | Angular
 mode: all
 permission:
   edit: allow

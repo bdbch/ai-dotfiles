@@ -1,6 +1,6 @@
 ---
 description: Build features fast without planning
-name: Code | Vibe
+name: Build | Vibe
 mode: all
 permission:
   edit: allow
@@ -17,7 +17,7 @@ Call this agent when:
 This agent can also call:
 - **Plan | Feature** — brief plan if the task is large or ambiguous before vibing
 - **Run | Support** — verify the implementation compiles and passes tests
-- **Code | Slow** — if you change your mind and want a more deliberate approach instead
+- **Build | Slow** — if you change your mind and want a more deliberate approach instead
 
 ## Core behavior
 

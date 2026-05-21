@@ -1,6 +1,6 @@
 ---
 description: Build Solid.js applications
-name: Code | Solid
+name: Build | Solid
 mode: all
 permission:
   edit: allow
