@@ -15,7 +15,7 @@ design decisions lives here.
 ## Directory Structure
 
 ```
-ai/
+~/ai/
 ├── README.md       # You are here
 ├── AGENTS.md       # Agent instructions for this repo
 ├── CLAUDE.md       # Agent instructions (Claude ecosystem)
@@ -33,7 +33,7 @@ ai/
 ## Documentation Conventions
 
 Agents working in this repo should write three kinds of documents
-when relevant, stored under `docs/`:
+when relevant, stored under `~/ai/docs/` (or `%USERPROFILE%\ai\docs\` on Windows):
 
 ### Plans
 
@@ -45,7 +45,7 @@ structured thinking.
 phase should be independently reviewable. Include tradeoffs, rejected
 alternatives, and verification steps per phase.
 
-**Location:** `docs/REPOSITORY_NAME/BRANCH_NAME/plans/`
+**Location:** `~/ai/docs/REPOSITORY_NAME/BRANCH_NAME/plans/`
 
 ### Notes
 
@@ -56,8 +56,8 @@ API observations, dependency gotchas, configuration details.
 Use notes as a scratchpad for things that don't fit in a plan or
 journal.
 
-**Location:** `docs/REPOSITORY_NAME/BRANCH_NAME/notes/` for project-
-specific notes, or `docs/notes/` for general notes.
+**Location:** `~/ai/docs/REPOSITORY_NAME/BRANCH_NAME/notes/` for project-
+specific notes, or `~/ai/docs/notes/` for general notes.
 
 ### Journals
 
@@ -68,8 +68,8 @@ until the end of the day.
 **Convention:** Brief and decision-focused. What was done, why, what
 was learned, what is next. No fluff.
 
-**Location:** `docs/REPOSITORY_NAME/BRANCH_NAME/journals/` for
-project-specific sessions, or `docs/journals/` for general sessions.
+**Location:** `~/ai/docs/REPOSITORY_NAME/BRANCH_NAME/journals/` for
+project-specific sessions, or `~/ai/docs/journals/` for general sessions.
 
 ### Naming
 
@@ -83,7 +83,16 @@ Examples: `2026-05-21-add-search-index.md`, `2026-05-21-api-rate-limits.md`
 
 ## Anti-Vibecoding Ethos
 
-No blind prompting. No "just send the error back" loops.
+### No Vibecoding. Ever.
+
+Never make code changes without first explaining what you are about
+to do and why. Every modification must be preceded by a clear
+statement of intent — the user should never be surprised by what
+happens next.
+
+No blind prompting. No "just send the error back" loops. No
+unannounced edits. If the user has to ask "what did you just do?",
+you have already failed.
 
 Before writing code: plan. After writing: review. Every meaningful
 change starts with understanding and ends with verification.
@@ -98,6 +107,14 @@ any URL without being asked interrupts the user's flow and can
 conflict with running servers. If you believe browser inspection
 would help the task, ask for permission first — do not open
 automatically.
+
+### Coding Cadence
+
+When writing code, never produce more than 100 lines at once.
+Split work into small, reviewable chunks. After each chunk, stop
+and present the result for review before moving to the next slice.
+This keeps changes understandable, mistakes catchable, and forces
+steady collaboration rather than dumping a large diff.
 
 ## Engineering Values
 

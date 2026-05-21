@@ -51,6 +51,4 @@ Configured in `opencode.base.json`:
 
 ## Workflow Rules
 
-The [`_AGENTS.md`](_AGENTS.md) file contains the shared peer-programming workflow — anti-vibecoding ethos, documentation conventions, engineering and design values. It is symlinked to `~/.config/opencode/AGENTS.md` and can be symlinked to `CLAUDE.md` or similar for other AI tools.
-
 Run the installer after adding new agents or skills — symlinks pick them up automatically. No manual config updates needed.
