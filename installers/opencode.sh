@@ -30,7 +30,8 @@ mkdir -p "$OPENCODE_DIR"
 # Symlink configuration files
 ln -s "$REPO_ROOT/opencode.jsonc" "$OPENCODE_DIR/opencode.jsonc"
 ln -s "$REPO_ROOT/opencode.base.json" "$OPENCODE_DIR/opencode.base.json"
-ln -s "$REPO_ROOT/AGENTS.md" "$OPENCODE_DIR/AGENTS.md"
+[ -L "$OPENCODE_DIR/AGENTS.md" ] && rm "$OPENCODE_DIR/AGENTS.md"
+ln -s "$REPO_ROOT/_AGENTS.md" "$OPENCODE_DIR/AGENTS.md"
 ln -s "$REPO_ROOT/agents" "$OPENCODE_DIR/agents"
 ln -s "$REPO_ROOT/skills" "$OPENCODE_DIR/skills"
 
