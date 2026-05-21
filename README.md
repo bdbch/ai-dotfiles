@@ -1,22 +1,37 @@
 ![AI DOTFILES COVER](.github/assets/cover.png)
 
-# ai-dotfiles
+<h1 align="center">ai-dotfiles</h1>
 
-Personal [opencode](https://opencode.ai) configuration — agents, skills, MCPs, and a peer-programming workflow.
+<p align="center">
+  <strong>31 agents · 6 skills · Chrome · Linear · GitHub · Notion</strong>
+</p>
 
-[📖 Read the docs](https://bdbch.github.io/ai-dotfiles/)
+<p align="center">
+  One-shot install. Peer-programming ethos. No vibecoding.
+</p>
 
-## Quick Install
+<br>
+
+## What
+
+A curated [opencode](https://opencode.ai) configuration — specialist agents, reusable skill bundles, MCP integrations, and a shared peer-programming workflow. Everything lives in one repo, gets symlinked into place, and works out of the box.
+
+## Why
+
+AI-assisted development is too often a black box. Prompt → error → prompt → error. This setup is the opposite: plan before coding, review after changes, and treat every agent as a collaborator, not a code generator.
+
+It keeps you sharp. You review every diff. You understand the tradeoffs. And the tooling stays out of your way.
+
+## Quick start
 
 ```bash
 sh ./installers/opencode.sh
 ```
 
-This symlinks your opencode config to the repo and installs dependencies. See the [installation guide](https://bdbch.github.io/ai-dotfiles/install/) for full instructions.
+See the [full docs](https://bdbch.github.io/ai-dotfiles/) for details.
 
-## What's Inside
+<br>
 
-- **Tons of agents** — code review, architecture, browser testing, security, design, docs, and more
-- **5 skill bundles** — browser debug, design review, accessibility audit, testing, code review
-- **MCP integrations** — Chrome DevTools (always on), Linear, GitHub, Notion (pre-configured, opt-in via `opencode.json`)
-- **Shared workflow** — peer-programming rules in `AGENTS.md`
+<p align="center">
+  <sub>Built for developers who want better agents, not faster vibes.</sub>
+</p>
