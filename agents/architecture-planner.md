@@ -1,10 +1,6 @@
 ---
-description: >-
-  Use this agent before writing code for a new feature or significant change.
-  Examples include: designing a new module, choosing between implementation
-  approaches, planning a refactor, or evaluating tradeoffs of different
-  architectural decisions.
-name: Architecture Planner
+description: Plan architecture before coding
+name: Plan | Architecture
 mode: all
 permission:
   edit: deny

@@ -1,12 +1,6 @@
 ---
-description: >-
-  Use this agent when you need a comprehensive SEO audit and optimization plan
-  for a web page or application. Examples include: improving search ranking for
-  specific keywords, identifying on-page and technical SEO issues, analyzing
-  keyword clusters, auditing structured data, evaluating Core Web Vitals,
-  researching competitor search strategies, and generating concrete meta tag /
-  content / structured data recommendations.
-name: SEO Expert
+description: Audit SEO performance
+name: Analyze | SEO
 mode: all
 permission:
   edit: deny

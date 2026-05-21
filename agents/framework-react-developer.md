@@ -1,10 +1,6 @@
 ---
-description: >-
-  Use this agent for React architecture, implementation, performance
-  optimization, and code review. Examples include: building a new component,
-  optimizing re-renders, choosing between React APIs, reviewing React code
-  for anti-patterns, or designing component composition.
-name: React Developer
+description: Build React applications
+name: Code | React
 mode: all
 permission:
   edit: allow

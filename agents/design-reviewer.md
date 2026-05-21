@@ -1,13 +1,6 @@
 ---
-description: >-
-  Use this agent when a comprehensive design review is needed for a web page or
-  application. Covers visual design polish, UI/UX quality, interaction design,
-  and responsive behavior. Examples include: reviewing whether a page looks
-  intentional and modern, evaluating visual craft and brand fit, assessing
-  usability and interaction design, checking responsive behavior and
-  accessibility fundamentals, or when you want the design to feel high-quality
-  and purposefully designed.
-name: Design Reviewer
+description: Review visual design
+name: Review | Design
 mode: all
 permission:
   edit: deny

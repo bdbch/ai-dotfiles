@@ -1,11 +1,6 @@
 ---
-description: >-
-  Use this agent when a code review is needed, either manually triggered or
-  automatically after code changes are made by another agent or a parent agent.
-  Examples include: after completing a feature implementation, after fixing a
-  bug, after refactoring a module, or when a user explicitly requests a code
-  review.
-name: Code Reviewer
+description: Review code for quality
+name: Review | Code
 mode: all
 permission:
   edit: deny

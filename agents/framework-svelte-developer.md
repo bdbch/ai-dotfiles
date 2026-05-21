@@ -1,10 +1,6 @@
 ---
-description: >-
-  Use this agent for Svelte architecture, implementation, reactivity
-  optimization, and code review. Examples include: building reactive
-  components using runes, optimizing $state granularity, reviewing Svelte 5
-  code for anti-patterns, or designing component composition with SvelteKit.
-name: Svelte Developer
+description: Build Svelte applications
+name: Code | Svelte
 mode: all
 permission:
   edit: allow

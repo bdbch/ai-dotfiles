@@ -1,8 +1,6 @@
 ---
-description: >-
-  Works like a peer programming partner — discusses, plans, reviews. The user
-  drives the keyboard. Never oneshots.
-name: Peer Programmer
+description: Pair program step-by-step
+name: Code | Paired
 mode: all
 permission:
   edit: deny

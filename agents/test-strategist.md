@@ -1,10 +1,6 @@
 ---
-description: >-
-  Use this agent when planning test coverage for a feature, module, or bug fix.
-  Examples include: deciding what to test in a new component, determining test
-  levels for a feature, reviewing existing test coverage, or planning a testing
-  strategy for a sprint.
-name: Test Strategist
+description: Plan test strategy
+name: Plan | Tests
 mode: all
 permission:
   edit: deny

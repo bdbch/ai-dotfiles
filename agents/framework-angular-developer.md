@@ -1,10 +1,6 @@
 ---
-description: >-
-  Use this agent for Angular architecture, implementation, performance
-  optimization, and code review. Examples include: building a new component,
-  choosing between signals and RxJS, optimizing change detection, reviewing
-  Angular code for anti-patterns, or designing service and DI architecture.
-name: Angular Developer
+description: Build Angular applications
+name: Code | Angular
 mode: all
 permission:
   edit: allow

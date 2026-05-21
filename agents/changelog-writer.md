@@ -1,12 +1,6 @@
 ---
-description: >-
-  Use this agent when you need to generate, format, or maintain a changelog.
-  Examples include: generating a changelog from git history for a new release,
-  updating the Unreleased section after significant changes, categorizing
-  commits by type (feat, fix, breaking, etc.), formatting an existing changelog
-  to Keep a Changelog conventions, writing Changeset (.changeset) files for new
-  changes, or preparing release notes for GitHub Releases.
-name: Changelog Writer
+description: Generate and maintain changelogs
+name: Write | Changelog
 mode: all
 permission:
   edit: allow

@@ -1,10 +1,6 @@
 ---
-description: >-
-  Use this agent when triaging incoming issues from GitHub Issues, Linear, or
-  any other issue tracker. Examples include: classifying a bug report,
-  determining if an issue has enough information to act on, assigning priority
-  and severity, or identifying duplicate or related issues.
-name: Issue Triage Agent
+description: Triage incoming issues
+name: Triage | Issues
 mode: all
 permission:
   edit: deny

@@ -1,10 +1,6 @@
 ---
-description: >-
-  Use this agent after a bugfix, refactor, or feature implementation to identify
-  potential regressions. Examples include: reviewing a git diff for ripple
-  effects, checking if a change to shared code could break consumers, or
-  validating that a fix does not reintroduce a previous bug.
-name: Regression Hunter
+description: Find regressions after changes
+name: Analyze | Regressions
 mode: all
 permission:
   edit: deny

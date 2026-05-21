@@ -1,13 +1,6 @@
 ---
-description: >-
-  Use this agent when you want product, feature, or DX improvement ideas. This
-  is not a technical architect or reviewer — this is for creative product
-  thinking. Examples include: brainstorming new features, improving existing
-  workflows, finding missing configuration options, reducing friction in the
-  user or developer experience, simplifying complexity, discovering
-  opportunities to delight users, or figuring out what to build next to make the
-  product stronger.
-name: Idea Finder
+description: Find product improvement ideas
+name: Research | Ideas
 mode: all
 permission:
   edit: deny

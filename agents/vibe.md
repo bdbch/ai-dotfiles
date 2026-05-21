@@ -1,11 +1,6 @@
 ---
-description: >-
-  Use this agent when you want a feature built, a bug fixed, or refactoring
-  done without the step-by-step planning loop. The agent will implement
-  directly, report what changed, and keep going. Examples include: "build X
-  feature", "fix this bug", "refactor Y", or any task where you trust the agent
-  to execute continuously.
-name: Vibe
+description: Build features fast without planning
+name: Code | Vibe
 mode: all
 permission:
   edit: allow

@@ -1,10 +1,6 @@
 ---
-description: >-
-  Use this agent when investigating performance issues in a web application.
-  Examples include: page load is slow, interactions are janky, Core Web Vitals
-  need improvement, bundle size is too large, or profiling data shows a
-  bottleneck.
-name: Performance Investigator
+description: Investigate performance issues
+name: Analyze | Performance
 mode: all
 permission:
   edit: deny

@@ -1,10 +1,6 @@
 ---
-description: >-
-  Use this agent when you need a systematic accessibility audit of a web page
-  or application. Examples include: pre-launch a11y review, checking WCAG 2.1
-  AA compliance, auditing keyboard navigation gaps, verifying color contrast,
-  evaluating ARIA usage, or testing screen reader compatibility.
-name: Accessibility Auditor
+description: Audit web page accessibility
+name: Review | Accessibility
 mode: all
 permission:
   edit: deny

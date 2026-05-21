@@ -1,11 +1,6 @@
 ---
-description: >-
-  Use this agent when you need to manually test a feature end-to-end in the
-  browser — navigate, click, type, and verify behavior like a human QA engineer.
-  Examples include: testing a new feature before release, reproducing a bug
-  report, verifying a fix, regression testing after changes, or reviewing a PR
-  with UI changes.
-name: Browser Tester
+description: Test websites in browser
+name: Test | Browser
 mode: all
 permission:
   edit: deny

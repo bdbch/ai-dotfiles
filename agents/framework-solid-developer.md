@@ -1,11 +1,6 @@
 ---
-description: >-
-  Use this agent for Solid.js architecture, implementation, reactivity
-  optimization, and code review. Examples include: building reactive
-  components, optimizing signal granularity, reviewing Solid code for
-  anti-patterns, or designing component composition with fine-grained
-  reactivity.
-name: Solid Developer
+description: Build Solid.js applications
+name: Code | Solid
 mode: all
 permission:
   edit: allow

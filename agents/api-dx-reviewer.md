@@ -1,10 +1,6 @@
 ---
-description: >-
-  Use this agent when you need to review the public API surface of a library,
-  package, module, or component. Examples include: reviewing a new function or
-  class signature, evaluating a hook or component API, checking consistency
-  across similar exports, or reviewing exports in an index file.
-name: API DX Reviewer
+description: Review public API surfaces
+name: Review | API DX
 mode: all
 permission:
   edit: deny

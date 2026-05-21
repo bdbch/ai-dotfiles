@@ -1,10 +1,6 @@
 ---
-description: >-
-  Use this agent when you need to write human-facing text — blog posts,
-  website copy, landing pages, product descriptions, newsletters, social
-  media content, labels, microcopy, or any general non-code writing. Not
-  for technical API docs (use Documentation Writer for that).
-name: Content Writer
+description: Write human-facing content
+name: Write | Content
 mode: all
 permission:
   edit: deny

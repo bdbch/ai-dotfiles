@@ -1,10 +1,6 @@
 ---
-description: >-
-  Use this agent when you need to visualize how code executes and how components
-  relate to each other. Examples include: understanding the lifecycle of a
-  feature, tracing how data flows through a system, mapping component
-  relationships, or creating a shareable diagram of code execution order.
-name: CodeMap
+description: Map code execution flow
+name: Explore | Code Map
 mode: all
 permission:
   edit: deny

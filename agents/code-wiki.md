@@ -1,11 +1,6 @@
 ---
-description: >-
-  Use this agent when you need an in-depth, Wikipedia-style explanation of a
-  specific code symbol — a function, class, type, variable, or module. Examples
-  include: understanding what a complex function does, learning the API of a
-  class, tracing where and how a symbol is used, or getting up to speed on an
-  unfamiliar part of the codebase.
-name: CodeWiki
+description: Explain codebase symbols
+name: Explore | Code Wiki
 mode: all
 permission:
   edit: deny

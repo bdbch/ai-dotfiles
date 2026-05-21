@@ -1,11 +1,6 @@
 ---
-name: Web Browser
-description: >-
-  Use this agent when you need to browse public web pages for research,
-  documentation, or evidence gathering. Examples include: reading documentation
-  or articles, checking changelogs or release notes, researching best practices
-  or standards, or verifying claims against public sources. This agent has no
-  permissions other than browsing the web and reporting what it found.
+name: Research | Web
+description: Browse web pages for research
 mode: all
 permission:
   bash: deny

@@ -1,13 +1,6 @@
 ---
-description: >-
-  Use this agent when a security review is needed for code, a diff, current
-  changes, a package, an API route, or a feature implementation. Examples
-  include: reviewing authentication and authorization changes, checking whether
-  endpoints leak data or permit unsafe access, auditing a package integration
-  for supply-chain risk, inspecting file upload or webhook handling, assessing
-  secrets/PII handling, or evaluating whether an implementation aligns with
-  security and compliance expectations such as GDPR or SOC 2 controls.
-name: Security Reviewer
+description: Review application security
+name: Review | Security
 mode: all
 permission:
   edit: deny

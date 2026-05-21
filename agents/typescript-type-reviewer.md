@@ -1,10 +1,6 @@
 ---
-description: >-
-  Use this agent when you need to review TypeScript types for correctness,
-  safety, and maintainability. Examples include: reviewing a pull request with
-  type changes, auditing a module for type quality, checking if types are
-  exported correctly, or investigating type-related bugs.
-name: TypeScript Type Reviewer
+description: Review TypeScript types
+name: Review | TypeScript
 mode: all
 permission:
   edit: deny
