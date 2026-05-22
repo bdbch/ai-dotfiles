@@ -18,7 +18,8 @@ This symlinks your opencode config to the repo and installs dependencies:
 ~/.config/opencode/
 ├── opencode.jsonc      → symlinked
 ├── opencode.base.json  → symlinked
-├── AGENTS.md           → symlinked (the _AGENTS.md workflow rules)
+├── AGENTS.md           → symlinked (instructions/README.md — the coding guidelines hub)
+├── instructions/       → symlinked (split conventions: coding, design, docs, etc.)
 ├── agents/             → symlinked
 ├── skills/             → symlinked
 └── .secrets/           → real dir (tokens stay out of repo)

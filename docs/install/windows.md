@@ -31,7 +31,8 @@ mkdir "%USERPROFILE%\.config\opencode"
 :: Individual file junctions
 mklink "%USERPROFILE%\.config\opencode\opencode.jsonc" "C:\dev\ai-dotfiles\opencode.jsonc"
 mklink "%USERPROFILE%\.config\opencode\opencode.base.json" "C:\dev\ai-dotfiles\opencode.base.json"
-mklink "%USERPROFILE%\.config\opencode\AGENTS.md" "C:\dev\ai-dotfiles\AGENTS.md"
+mklink "%USERPROFILE%\.config\opencode\AGENTS.md" "C:\dev\ai-dotfiles\instructions\README.md"
+mklink /J "%USERPROFILE%\.config\opencode\instructions" "C:\dev\ai-dotfiles\instructions"
 mklink /J "%USERPROFILE%\.config\opencode\agents" "C:\dev\ai-dotfiles\agents"
 mklink /J "%USERPROFILE%\.config\opencode\skills" "C:\dev\ai-dotfiles\skills"
 ```

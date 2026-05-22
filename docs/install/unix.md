@@ -23,7 +23,8 @@ The installer:
 |----------|---------------|
 | `opencode.jsonc` | `opencode.jsonc` |
 | `opencode.base.json` | `opencode.base.json` |
-| `AGENTS.md` | `AGENTS.md` |
+| `AGENTS.md` | `instructions/README.md` |
+| `instructions/` | `instructions/` |
 | `agents/` | `agents/` |
 | `skills/` | `skills/` |
 
@@ -43,7 +44,8 @@ mkdir -p ~/.config/opencode
 # Symlink configuration files
 ln -s /path/to/ai-dotfiles/opencode.jsonc ~/.config/opencode/opencode.jsonc
 ln -s /path/to/ai-dotfiles/opencode.base.json ~/.config/opencode/opencode.base.json
-ln -s /path/to/ai-dotfiles/AGENTS.md ~/.config/opencode/AGENTS.md
+ln -s /path/to/ai-dotfiles/instructions/README.md ~/.config/opencode/AGENTS.md
+ln -s /path/to/ai-dotfiles/instructions ~/.config/opencode/instructions
 ln -s /path/to/ai-dotfiles/agents ~/.config/opencode/agents
 ln -s /path/to/ai-dotfiles/skills ~/.config/opencode/skills
 

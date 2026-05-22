@@ -1,6 +1,6 @@
 # Agent Working Style
 
-AI Dotfiles uses a **peer-programming workflow** defined in `AGENTS.md`.
+AI Dotfiles uses a **peer-programming workflow** defined in `instructions/README.md` (symlinked as `AGENTS.md` in the opencode config).
 
 ## Core Principles
 

@@ -1,6 +1,6 @@
 # Agents
 
-All agents live in `agents/` and are available in opencode. They share a common peer-programming workflow defined in `AGENTS.md`.
+All agents live in `agents/` and are available in opencode. They share a common peer-programming workflow defined in `instructions/README.md` (symlinked as `AGENTS.md` in the opencode config).
 
 ## Agent Categories
 

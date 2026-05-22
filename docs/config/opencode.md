@@ -9,7 +9,13 @@ ai-dotfiles/
 ├── opencode.base.json     # Version-controlled template (do not edit directly)
 ├── opencode.jsonc         # Schema reference
 ├── opencode.package.json  # Plugin dependency version template
-├── AGENTS.md              # Agent working style rules
+├── instructions/          # Agent working style rules (split by convention)
+│   ├── README.md
+│   ├── ANTI_VIBECODE.md
+│   ├── CONVENTIONS_CODING.md
+│   ├── CONVENTIONS_DESIGN.md
+│   ├── CONVENTIONS_DOCUMENTATION.md
+│   └── ENGINEERING_VALUES.md
 ├── agents/                # Agent definitions
 ├── skills/                # Skill bundles
 ├── .secrets/              # Secrets directory template (.gitignore only, no tokens stored in repo)
@@ -19,7 +25,8 @@ ai-dotfiles/
 ~/.config/opencode/
 ├── opencode.base.json ->  (symlink to repo)
 ├── opencode.jsonc      ->  (symlink to repo)
-├── AGENTS.md           ->  (symlink to repo)
+├── AGENTS.md           ->  (symlink to instructions/README.md)
+├── instructions/       ->  (symlink to repo instructions/)
 ├── agents/             ->  (symlink to repo)
 ├── skills/             ->  (symlink to repo)
 ├── opencode.json          # Your editable configuration (created by installer, not tracked)

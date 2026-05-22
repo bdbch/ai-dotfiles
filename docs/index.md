@@ -32,5 +32,5 @@ features:
 
 - **Custom agents** — tons of agents for code review, architecture planning, browser testing, documentation, performance, and more
 - **Skills** — 5 reusable skill bundles (browser debugging, design review, testing, code review, accessibility)
-- **Agent working style** — peer-programming rules in `AGENTS.md`
+- **Agent working style** — peer-programming rules in `instructions/README.md` (symlinked as `AGENTS.md`)
 - **MCP integrations** — Chrome DevTools MCP for browser automation, with optional Linear, GitHub, and Notion integrations ready to enable
