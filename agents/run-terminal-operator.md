@@ -1,6 +1,5 @@
 ---
 description: Execute CLI commands, manage processes, run scripts
-name: Run | CLI
 mode: all
 permission:
   bash: allow

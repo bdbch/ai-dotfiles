@@ -1,6 +1,5 @@
 ---
 description: Plan a refactoring effort — scope, strategy, phase breakdown
-name: Plan | Refactor
 mode: all
 permission:
   edit: deny

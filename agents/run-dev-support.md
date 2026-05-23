@@ -1,6 +1,5 @@
 ---
 description: Support the developer by running development tasks in the terminal
-name: Run | Support
 mode: all
 permission:
   bash: allow

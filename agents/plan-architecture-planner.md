@@ -1,6 +1,5 @@
 ---
 description: Plan architecture before coding
-name: Plan | Architecture
 mode: all
 permission:
   edit: deny

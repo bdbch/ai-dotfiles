@@ -1,6 +1,5 @@
 ---
 description: Guided pair programming — think and review, never edit
-name: Build | Pairprogramming
 mode: all
 permission:
   edit: deny

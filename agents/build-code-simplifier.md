@@ -1,6 +1,5 @@
 ---
 description: Simplify complex code — reduce logic density, clarify intent
-name: Build | Simplify
 mode: all
 permission:
   edit: allow

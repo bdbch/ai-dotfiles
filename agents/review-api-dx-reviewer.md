@@ -1,6 +1,5 @@
 ---
 description: Review public API surfaces
-name: Review | API DX
 mode: all
 permission:
   edit: deny

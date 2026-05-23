@@ -1,6 +1,5 @@
 ---
 description: Expert refactoring — improve structure without changing behavior
-name: Build | Refactor
 mode: all
 permission:
   edit: allow

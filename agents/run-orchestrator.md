@@ -1,6 +1,5 @@
 ---
 description: Lead projects by orchestrating sub-agents, delegating work, and reporting status like a CEO
-name: Run | Orchestrator
 mode: all
 permission:
   edit: deny

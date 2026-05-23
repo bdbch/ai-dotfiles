@@ -1,6 +1,5 @@
 ---
 description: Scout dependency upgrades
-name: Research | Dependencies
 mode: all
 permission:
   edit: deny

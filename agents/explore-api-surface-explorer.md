@@ -1,6 +1,5 @@
 ---
 description: Map all public exports, endpoints, and configuration points
-name: Explore | API Surface
 mode: all
 permission:
   edit: deny

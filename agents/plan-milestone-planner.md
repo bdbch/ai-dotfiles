@@ -1,6 +1,5 @@
 ---
 description: Plan a milestone — scope, tasks, dependencies, risks
-name: Plan | Milestone
 mode: all
 permission:
   edit: deny

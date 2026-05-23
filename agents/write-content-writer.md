@@ -1,6 +1,5 @@
 ---
 description: Write human-facing content
-name: Write | Content
 mode: all
 permission:
   edit: deny

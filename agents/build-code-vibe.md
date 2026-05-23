@@ -1,6 +1,5 @@
 ---
 description: Build features fast without planning
-name: Build | Vibe
 mode: all
 permission:
   edit: allow

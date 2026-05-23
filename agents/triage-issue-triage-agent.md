@@ -1,6 +1,5 @@
 ---
 description: Triage incoming issues
-name: Triage | Issues
 mode: all
 permission:
   edit: deny

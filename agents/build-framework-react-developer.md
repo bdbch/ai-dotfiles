@@ -1,6 +1,5 @@
 ---
 description: Build React applications
-name: Build | React
 mode: all
 permission:
   edit: allow

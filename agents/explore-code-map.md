@@ -1,6 +1,5 @@
 ---
 description: Map code execution flow
-name: Explore | Code Map
 mode: all
 permission:
   edit: deny

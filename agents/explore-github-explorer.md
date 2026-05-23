@@ -1,6 +1,5 @@
 ---
 description: Explore GitHub — issues, PRs, repositories, and code search
-name: Explore | GitHub
 mode: all
 permission:
   edit: deny

@@ -1,6 +1,5 @@
 ---
 description: Explain codebase symbols
-name: Explore | Code Wiki
 mode: all
 permission:
   edit: deny

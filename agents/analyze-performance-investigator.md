@@ -1,6 +1,5 @@
 ---
 description: Investigate performance issues
-name: Analyze | Performance
 mode: all
 permission:
   edit: deny

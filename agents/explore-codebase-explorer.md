@@ -1,6 +1,5 @@
 ---
 description: Explore codebase structure
-name: Explore | Codebase
 mode: all
 permission:
   edit: deny

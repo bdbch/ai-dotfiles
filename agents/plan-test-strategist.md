@@ -1,6 +1,5 @@
 ---
 description: Plan test strategy
-name: Plan | Tests
 mode: all
 permission:
   edit: deny

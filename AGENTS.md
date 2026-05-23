@@ -29,9 +29,9 @@ See the [installation guide](https://bdbch.github.io/ai-dotfiles/install/) for f
 
 ## Agents
 
-All agents live in [`agents/*.md`](agents/). Each file has YAML frontmatter with `name: Category | Specialty`, a `description`, and mode/permissions. Browse the directory to see what's available.
+All agents live in [`agents/*.md`](agents/). Each file has YAML frontmatter with a `description`, `mode`, and `permission` settings. Browse the directory to see what's available.
 
-To add a new agent, create a `.md` file in `agents/` following the `Category | Specialty` naming convention.
+To add a new agent, create a `.md` file in `agents/` following the `Category | Specialty` naming convention in the filename.
 
 ## Skills
 

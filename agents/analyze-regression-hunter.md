@@ -1,6 +1,5 @@
 ---
 description: Find regressions after changes
-name: Analyze | Regressions
 mode: all
 permission:
   edit: deny

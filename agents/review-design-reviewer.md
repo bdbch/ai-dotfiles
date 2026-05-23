@@ -1,6 +1,5 @@
 ---
 description: Review visual design
-name: Review | Design
 mode: all
 permission:
   edit: deny

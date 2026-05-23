@@ -1,6 +1,5 @@
 ---
 description: Write comprehensive tests at all levels
-name: Build | Tests
 mode: all
 permission:
   edit: allow

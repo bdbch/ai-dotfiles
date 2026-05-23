@@ -1,6 +1,5 @@
 ---
 description: Analyze the dependency graph — relationships, health, and risks
-name: Explore | Dependencies
 mode: all
 permission:
   edit: deny

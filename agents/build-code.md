@@ -1,6 +1,5 @@
 ---
 description: Build features step by step with review after each change
-name: Build | Code
 mode: all
 permission:
   edit: ask

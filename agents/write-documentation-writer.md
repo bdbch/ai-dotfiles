@@ -1,6 +1,5 @@
 ---
 description: Write technical documentation
-name: Write | Documentation
 mode: all
 permission:
   edit: deny

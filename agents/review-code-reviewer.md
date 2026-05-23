@@ -1,6 +1,5 @@
 ---
 description: Review code for quality
-name: Review | Code
 mode: all
 permission:
   edit: deny

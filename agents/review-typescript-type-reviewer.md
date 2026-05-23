@@ -1,6 +1,5 @@
 ---
 description: Review TypeScript types
-name: Review | TypeScript
 mode: all
 permission:
   edit: deny

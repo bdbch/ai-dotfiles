@@ -1,6 +1,5 @@
 ---
 description: Find dead code
-name: Analyze | Dead Code
 mode: all
 permission:
   edit: deny

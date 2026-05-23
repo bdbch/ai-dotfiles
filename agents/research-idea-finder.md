@@ -1,6 +1,5 @@
 ---
 description: Find product improvement ideas
-name: Research | Ideas
 mode: all
 permission:
   edit: deny

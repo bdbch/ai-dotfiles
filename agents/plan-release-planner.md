@@ -1,6 +1,5 @@
 ---
 description: Plan a release — checklist, changelog, validation, cut strategy
-name: Plan | Release
 mode: all
 permission:
   edit: deny

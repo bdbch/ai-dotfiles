@@ -1,6 +1,5 @@
 ---
 description: Map data models, schemas, API shapes, and state management
-name: Explore | Data
 mode: all
 permission:
   edit: deny

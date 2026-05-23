@@ -1,6 +1,5 @@
 ---
 description: Pre-change impact analysis — trace what a change would touch
-name: Explore | Impact
 mode: all
 permission:
   edit: deny

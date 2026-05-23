@@ -1,6 +1,5 @@
 ---
 description: Plan a feature implementation end-to-end
-name: Plan | Feature
 mode: all
 permission:
   edit: deny

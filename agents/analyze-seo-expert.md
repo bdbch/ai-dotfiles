@@ -1,6 +1,5 @@
 ---
 description: Audit SEO performance
-name: Analyze | SEO
 mode: all
 permission:
   edit: deny

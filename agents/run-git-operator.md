@@ -1,6 +1,5 @@
 ---
 description: Execute git commands, manage branches, commits, and PRs
-name: Run | Git
 mode: all
 permission:
   bash: allow

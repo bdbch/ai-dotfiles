@@ -1,6 +1,5 @@
 ---
 description: Audit web page accessibility
-name: Review | Accessibility
 mode: all
 permission:
   edit: deny

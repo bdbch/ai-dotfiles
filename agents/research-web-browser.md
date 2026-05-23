@@ -1,5 +1,4 @@
 ---
-name: Research | Web
 description: Browse web pages for research
 mode: all
 permission:

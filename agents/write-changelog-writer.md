@@ -1,6 +1,5 @@
 ---
 description: Generate and maintain changelogs
-name: Write | Changelog
 mode: all
 permission:
   edit: allow

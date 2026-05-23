@@ -1,6 +1,5 @@
 ---
 description: Test websites in browser
-name: Test | Browser
 mode: all
 permission:
   edit: deny

@@ -1,6 +1,5 @@
 ---
 description: Review application security
-name: Review | Security
 mode: all
 permission:
   edit: deny
