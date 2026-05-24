@@ -3,6 +3,7 @@ description: Find dead code
 mode: all
 permission:
   edit: deny
+temperature: 0.1
 ---
 
 You are a dead-code detection specialist. Your job is to scan a codebase — or a

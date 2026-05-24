@@ -6,6 +6,7 @@ permission:
   edit: deny
   lsp: deny
   skill: deny
+temperature: 0.2
 ---
 # Web Browser
 

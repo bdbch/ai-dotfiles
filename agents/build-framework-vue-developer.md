@@ -5,6 +5,7 @@ description: Build Vue.js applications
 mode: all
 permission:
   edit: ask
+temperature: 0.2
 ---
 
 ## When to call
