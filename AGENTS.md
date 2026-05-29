@@ -69,6 +69,7 @@ To add a new agent, create a `.md` file in `agents/` with YAML frontmatter (`des
 | `refactoring` | Refactor, simplify, restructure code |
 | `test-writing` | Write unit, integration, E2E tests |
 | `build-workflow` | Iterative vs vibe vs oneshot mode definitions |
+| `task-splitter` | Split tasks into small, reviewable subtasks — atomic units of work |
 
 ### Explore Skills
 | Skill | Purpose |
