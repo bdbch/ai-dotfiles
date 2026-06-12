@@ -13,6 +13,7 @@
 
 - Keep code small, low in complexity, and modular. Code files should not be one huge file but well separated if it gets too long.
   - Functions that get too long should be split into multiple smaller functions if necessary.
+  - Use `fallow` when installed to analyze complexity and cyclic dependencies before making changes.
 
 - Namings should be short but descriptive. Never do weird long names like `getEditorStateReflowRepaintRenderPattern()` - find better names.
   - Never use non-descriptive variable names except in loops where it makes sense. e.g. `np` → `nodePosition`.
