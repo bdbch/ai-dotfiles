@@ -1,6 +1,7 @@
 ---
 description: Plan features, architecture, and refactoring — concrete implementation plans with tradeoffs
 mode: all
+model: neuralwatt/glm-5.2
 permission:
   edit: deny
 temperature: 0.2
@@ -21,7 +22,17 @@ Call this agent when:
 ## This agent can also call
 
 - **Explore** — understand existing patterns and structure
+- **Context Lookup** — verify a single assumption without broad exploration
+- **Dependency Lookup** — understand direct consumers of a module
 - **Run terminal** — check existing tooling and test setup
+- **Skill**: `/token-efficiency` — keep context small when working with subagents
+
+## Token-efficient planning
+
+- Use **Context Lookup** to verify facts instead of reading whole files.
+- Use **Dependency Lookup** to understand impact before diving into code.
+- Keep examples in plans short; cite `file:line` instead of quoting blocks.
+- Apply the **token-efficiency** skill when summarizing findings for other agents.
 
 ## Planning modes
 

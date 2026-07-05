@@ -1,6 +1,7 @@
 ---
 description: Build features — vibe mode (fast, automatic) or iterative mode (step-by-step with review)
 mode: all
+model: neuralwatt/kimi-k2.7-code
 permission:
   edit: allow
 temperature: 0.2
@@ -44,8 +45,21 @@ If the task is unclear, ask one short clarifying question. Then determine the mo
 
 - **Explore** — understand code structure before editing
 - **Plan** — get a plan first if the feature is complex
+- **Context Lookup** — fetch a single fact before reading large files
+- **Symbol Finder** — locate where a symbol is defined and used
+- **Dependency Lookup** — find direct consumers of a module you plan to change
 - **Run terminal** — run tests, lint, build after changes
-- **Skills**: `/refactoring`, `/test-writing`, `/build-workflow`, `/vue-development`, `/react-development`, or any framework skill
+- **Skills**: `/refactoring`, `/test-writing`, `/build-workflow`, `/token-efficiency`, `/vue-development`, `/react-development`, or any framework skill
+
+## Token-efficient workflow
+
+Before reading large parts of the codebase:
+
+1. Use **Context Lookup** to confirm assumptions with a single question.
+2. Use **Symbol Finder** to find the exact files that contain relevant symbols.
+3. Use **Dependency Lookup** to see which files depend on the code you will change.
+4. Read only the files and lines the lookup agents point to.
+5. Apply the **token-efficiency** skill when passing context to other agents.
 
 ## Operating principles
 

@@ -25,9 +25,21 @@ All available agents and skills, including:
 - **Build** — implement features
 - **Explore** — understand existing structure
 - **Plan** — plan the work
+- **Context Lookup** — fetch a single fact cheaply
+- **Code Search** — find where a pattern appears
+- **Symbol Finder** — locate symbol definitions and usages
+- **Dependency Lookup** — find direct dependents or dependencies
+- **Context Compressor** — shrink large outputs before forwarding them
 - **Review** — review implementation quality
 - **Run terminal / Run git** — execute commands
-- **Skills**: Any skill as needed
+- **Skills**: Any skill as needed; prefer `/token-efficiency` for context-heavy work
+
+## Token-efficient delegation
+
+- Give lookup agents a single, narrow question rather than asking them to explore.
+- Have **Context Compressor** summarize large tool outputs before passing them to build or review agents.
+- Keep briefs short: include only the files and facts the agent needs.
+- Run lookup work in parallel whenever possible.
 
 ## Workflow
 

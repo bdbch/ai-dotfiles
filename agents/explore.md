@@ -1,6 +1,7 @@
 ---
 description: Explore codebase structure — find files, trace patterns, understand architecture
 mode: all
+model: neuralwatt/qwen3.6-35b-fast
 permission:
   edit: deny
 temperature: 0.2
@@ -19,6 +20,20 @@ Call this agent when:
 ## This agent can also call
 
 - **Explore Ask** — when the user has a general question
+- **Context Lookup** — fetch a single fact without reading large files
+- **Code Search** — get a list of matching files and lines
+- **Symbol Finder** — locate symbol definitions and main usages
+- **Dependency Lookup** — find direct dependents or dependencies of a module
+
+## Token-efficient exploration
+
+Before doing broad reads:
+
+1. Call **Context Lookup** if you only need one fact.
+2. Call **Code Search** to narrow down which files are relevant.
+3. Call **Symbol Finder** to trace a specific symbol without scanning every reference.
+4. Call **Dependency Lookup** when you only need one level of imports or consumers.
+5. Use the **token-efficiency** skill when returning findings to another agent.
 
 ## Exploration modes
 
