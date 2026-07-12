@@ -1,5 +1,5 @@
 ---
-name: "Git Operations"
+name: "git-operations"
 description: "Git workflow — commits (Conventional Commits), branches, PRs, merge, rebase, conflict resolution."
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "API Surface"
+name: "api-surface"
 description: "Map all public exports, endpoints, CLI commands, configuration points, and events."
 ---
 

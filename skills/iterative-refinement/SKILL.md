@@ -1,5 +1,5 @@
 ---
-name: "Iterative Refinement"
+name: "iterative-refinement"
 description: "Progressive improvement through disciplined cycles — Draft → Review → Revise → Finalize, stop criteria, feedback integration, and quality progression."
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "Laravel Development"
+name: "laravel-development"
 description: "Build web applications with Laravel — routing, controllers, Eloquent ORM, Blade templating, Artisan CLI, middleware, service container, queues, events, broadcasting, testing, and Laravel ecosystem tools."
 ---
 

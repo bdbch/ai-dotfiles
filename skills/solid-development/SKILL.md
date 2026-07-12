@@ -1,5 +1,5 @@
 ---
-name: "Solid.js Development"
+name: "solid-development"
 description: "Build Solid.js applications — fine-grained reactivity, signals, effects, stores, and SolidStart."
 ---
 

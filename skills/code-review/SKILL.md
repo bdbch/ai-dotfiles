@@ -1,5 +1,5 @@
 ---
-name: "Code Review"
+name: "code-review"
 description: "Review Code and provide feedback around best practices, potential bugs or regression, and overall code quality."
 ---
 

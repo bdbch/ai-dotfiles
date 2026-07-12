@@ -1,5 +1,5 @@
 ---
-name: "Performance Investigation"
+name: "performance-investigation"
 description: "Investigate performance issues — trace runtime, measure Core Web Vitals, identify bottlenecks."
 ---
 

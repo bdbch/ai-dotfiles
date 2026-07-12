@@ -1,5 +1,5 @@
 ---
-name: "Browser Debug"
+name: "browser-debug"
 description: "Open a website in the browser and use DevTools to diagnose console errors, network issues, performance regressions, accessibility problems, and other runtime issues."
 ---
 

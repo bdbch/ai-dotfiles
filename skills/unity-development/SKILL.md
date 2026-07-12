@@ -1,5 +1,5 @@
 ---
-name: "Unity Development"
+name: "unity-development"
 description: "Build games and applications with Unity 6 — C# scripting, MonoBehaviour lifecycle, physics, input, UI Toolkit, ScriptableObjects, coroutines, async/await, addressables, ECS/DOTS, shader graph, and performance optimization."
 ---
 

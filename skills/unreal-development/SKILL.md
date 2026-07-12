@@ -1,5 +1,5 @@
 ---
-name: "Unreal Engine Development"
+name: "unreal-development"
 description: "Build games and applications with Unreal Engine 5 — C++ gameplay framework, Blueprints, UProperties, UFunctions, Actors, Components, Enhanced Input, Gameplay Abilities, Niagara, behavior trees, and performance optimization."
 ---
 

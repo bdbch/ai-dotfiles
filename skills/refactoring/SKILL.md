@@ -1,5 +1,5 @@
 ---
-name: "Refactoring"
+name: "refactoring"
 description: "Refactor, simplify, and restructure code — extract methods, rename symbols, split files, reduce complexity."
 ---
 

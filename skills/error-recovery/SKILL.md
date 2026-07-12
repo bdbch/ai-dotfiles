@@ -1,5 +1,5 @@
 ---
-name: "Error Recovery"
+name: "error-recovery"
 description: "Systematically recover from failures — isolate, diagnose, fix, verify, prevent. The three-attempts rule, evidence gathering before guessing, and when to roll back vs push forward."
 ---
 

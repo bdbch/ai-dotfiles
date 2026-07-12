@@ -1,5 +1,5 @@
 ---
-name: "Verification First"
+name: "verification-first"
 description: "Write verification methods before implementation — self-checking workflows, the Verify → Implement → Confirm cycle, regression guardrails, and manual verification strategies."
 ---
 

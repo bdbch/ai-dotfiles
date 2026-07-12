@@ -1,5 +1,5 @@
 ---
-name: "GitHub Issue Fixer"
+name: "github-issue-fixer"
 description: "Use the gh CLI to fetch issues, discussions, and linked issues — analyze the problem, find relevant code, and implement a fix with a PR."
 ---
 

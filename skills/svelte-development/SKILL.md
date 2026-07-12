@@ -1,5 +1,5 @@
 ---
-name: "Svelte Development"
+name: "svelte-development"
 description: "Build Svelte 5 applications — runes, compiler model, fine-grained reactivity, and SvelteKit."
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "Changelog Writing"
+name: "changelog-writing"
 description: "Generate changelogs — Keep a Changelog format, Changesets, version bumps, breaking changes."
 ---
 

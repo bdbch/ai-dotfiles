@@ -1,5 +1,5 @@
 ---
-name: "Build Workflow"
+name: "build-workflow"
 description: "Define how code gets built — iterative (step-by-step with review) vs. vibe (fast, automatic) vs. oneshot (single pass)."
 ---
 

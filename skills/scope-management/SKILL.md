@@ -1,5 +1,5 @@
 ---
-name: "Scope Management"
+name: "scope-management"
 description: "Stay focused on the goal — MVP definition, scope creep detection, the parking lot pattern, tradeoff communication, and knowing when good enough is enough."
 ---
 

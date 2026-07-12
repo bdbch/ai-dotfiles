@@ -1,5 +1,5 @@
 ---
-name: "Shopify Development"
+name: "shopify-development"
 description: "Build Shopify apps, themes, and custom storefronts — GraphQL Admin API, REST API, Liquid templating, Hydrogen, App Bridge, webhooks, checkout extensibility, Polaris components, and Shopify CLI."
 ---
 

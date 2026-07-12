@@ -1,5 +1,5 @@
 ---
-name: "Go Development"
+name: "go-development"
 description: "Write idiomatic Go — packages, interfaces, goroutines, channels, error handling, testing, modules, HTTP services, and common patterns."
 ---
 

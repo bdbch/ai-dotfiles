@@ -1,5 +1,5 @@
 ---
-name: "Tiptap Development"
+name: "tiptap-development"
 description: "Build rich text editors with Tiptap (v3) — Editor instance, extensions, nodes, marks, commands, chaining, node views, UI integrations (React/Vue), events, keyboard shortcuts, input rules, and ProseMirror bridging."
 ---
 

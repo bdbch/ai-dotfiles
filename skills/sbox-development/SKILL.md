@@ -1,5 +1,5 @@
 ---
-name: "S&box Development"
+name: "sbox-development"
 description: "Build games and experiences with S&box by Facepunch — C# game code, entities, components, input, UI (Razor/SCSS), networking, physics, asset management, gamemodes, and the S&box editor."
 ---
 

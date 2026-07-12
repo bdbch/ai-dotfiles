@@ -1,5 +1,5 @@
 ---
-name: "Code Map"
+name: "code-map"
 description: "Trace execution flow of a feature from start to finish — entry points, data flow, lifecycle, and Mermaid diagrams."
 ---
 

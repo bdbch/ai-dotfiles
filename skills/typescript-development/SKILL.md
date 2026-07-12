@@ -1,5 +1,5 @@
 ---
-name: "TypeScript Development"
+name: "typescript-development"
 description: "Write robust TypeScript — generics, utility types, conditional types, template literals, module resolution, tsconfig patterns, declaration files, and advanced type patterns."
 ---
 

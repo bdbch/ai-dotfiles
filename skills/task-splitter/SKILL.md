@@ -1,5 +1,5 @@
 ---
-name: "Task Splitter"
+name: "task-splitter"
 description: "Split any task into small, reviewable subtasks — atomic units of work that are easy to track, easy to review, and hard to get wrong."
 ---
 

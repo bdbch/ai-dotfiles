@@ -1,5 +1,5 @@
 ---
-name: "GitHub Issue Labeler"
+name: "github-issue-labeler"
 description: "Finds unlabeled GitHub issues in the current repository, plans appropriate labels based on issue content, and applies them after user confirmation."
 ---
 

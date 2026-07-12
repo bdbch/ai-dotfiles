@@ -1,3 +1,8 @@
+---
+name: "ui-landingpage-modern"
+description: "Design premium, editorial-style landing pages — marketing sites, product pages, pricing pages, and SaaS website sections."
+---
+
 # Modern Landing Page Design Skill
 
 Use this skill when creating modern marketing sites, product landing pages, pricing pages, feature pages, changelog pages, product launch pages, and polished SaaS website sections with the calm, premium, editorial, high-contrast aesthetic shown in the reference screenshots.

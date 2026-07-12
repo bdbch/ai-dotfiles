@@ -1,5 +1,5 @@
 ---
-name: "Architecture Decision Records"
+name: "architecture-decision-records"
 description: "Write and manage Architecture Decision Records — ADR format, status lifecycle, tradeoff analysis, templates, and integration with project workflow."
 ---
 

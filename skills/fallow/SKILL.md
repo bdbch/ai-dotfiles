@@ -1,5 +1,5 @@
 ---
-name: fallow
+name: "fallow"
 description: >-
   Audit, health-check, and review TypeScript/JavaScript code with the `fallow`
   CLI — find dead code, unused exports/dependencies, circular deps, code

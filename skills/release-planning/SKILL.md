@@ -1,5 +1,5 @@
 ---
-name: "Release Planning"
+name: "release-planning"
 description: "Plan a release — checklist, changelog, version bump, migration notes, smoke tests, rollback."
 ---
 

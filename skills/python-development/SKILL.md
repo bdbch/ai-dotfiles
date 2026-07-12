@@ -1,5 +1,5 @@
 ---
-name: "Python Development"
+name: "python-development"
 description: "Write modern Python — type hints, async/await, OOP, protocols, FastAPI, Pydantic, Django, pytest, packaging, and performance optimization."
 ---
 

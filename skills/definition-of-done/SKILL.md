@@ -1,5 +1,5 @@
 ---
-name: "Definition of Done"
+name: "definition-of-done"
 description: "Write clear completion criteria before starting work — acceptance criteria formats, quality gates, scope boundaries, and the done checklist pattern."
 ---
 

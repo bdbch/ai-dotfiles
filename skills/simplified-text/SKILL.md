@@ -1,5 +1,5 @@
 ---
-name: "Simplified Text"
+name: "simplified-text"
 description: "Communicate with clarity and brevity — default to plain explanations, avoid unnecessary technical depth, lead with the big picture, and only go deeper when asked."
 ---
 

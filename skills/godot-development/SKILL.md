@@ -1,5 +1,5 @@
 ---
-name: "Godot Development"
+name: "godot-development"
 description: "Build Godot 2D games — GDScript, scene composition, signals, physics, animation, and performance."
 ---
 

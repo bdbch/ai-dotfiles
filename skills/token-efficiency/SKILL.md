@@ -1,5 +1,5 @@
 ---
-name: token-efficiency
+name: "token-efficiency"
 description: Use when reading code, searching, summarizing, or returning results to another agent. Keeps context windows small and responses compact.
 ---
 

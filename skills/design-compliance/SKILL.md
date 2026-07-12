@@ -1,5 +1,5 @@
 ---
-name: "Design Compliance"
+name: "design-compliance"
 description: "Strict design compliance audit — measurable standards only: contrast ratios, spacing grid, typography scale, hit targets."
 ---
 

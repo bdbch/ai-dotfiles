@@ -1,5 +1,5 @@
 ---
-name: "Rust Development"
+name: "rust-development"
 description: "Write expert Rust code — ownership, borrowing, lifetimes, async, error handling, and systems programming."
 ---
 

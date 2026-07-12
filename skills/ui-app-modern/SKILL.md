@@ -1,3 +1,8 @@
+---
+name: "ui-app-modern"
+description: "Design modern, native-feeling web apps — SaaS workspaces, dashboards, issue trackers, admin panels, and productivity tools."
+---
+
 # Native App UI Design Skill
 
 Use this skill when designing clean, native-feeling web apps, desktop apps, SaaS workspaces, dashboards, issue trackers, project management tools, admin panels, productivity tools, and AI-assisted product interfaces similar in structure and quality to the app screenshots.

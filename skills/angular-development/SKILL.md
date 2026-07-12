@@ -1,5 +1,5 @@
 ---
-name: "Angular Development"
+name: "angular-development"
 description: "Build Angular 17+ applications — standalone components, signals, RxJS, DI, change detection, and templates."
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "PR Writing"
+name: "pr-writing"
 description: "Write high-quality pull request descriptions — analyze diffs, apply templates, link issues, categorize changes, write changelog entries, and guide reviewers."
 ---
 

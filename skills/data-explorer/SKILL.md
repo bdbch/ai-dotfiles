@@ -1,5 +1,5 @@
 ---
-name: "Data Explorer"
+name: "data-explorer"
 description: "Map data models, schemas, API shapes, and state management across all layers."
 ---
 

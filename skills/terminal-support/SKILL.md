@@ -1,5 +1,5 @@
 ---
-name: "Terminal Support"
+name: "terminal-support"
 description: "Run dev workflow — tests, linting, type-checking, builds, formatting, dependency installation."
 ---
 

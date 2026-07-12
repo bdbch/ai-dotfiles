@@ -1,5 +1,5 @@
 ---
-name: "Crazy Ideas"
+name: "crazy-ideas"
 description: "Blue-sky ideation — wild, unconventional ideas with zero constraints, no feasibility filtering."
 ---
 

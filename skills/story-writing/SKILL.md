@@ -1,5 +1,5 @@
 ---
-name: "Story Writing"
+name: "story-writing"
 description: "Write effective user stories — INVEST criteria, acceptance criteria, Gherkin/BDD scenarios, story mapping, splitting strategies, and refinement."
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "SEO Audit"
+name: "seo-audit"
 description: "Technical SEO audit — meta tags, structured data, Core Web Vitals, mobile-first indexing, content optimization."
 ---
 

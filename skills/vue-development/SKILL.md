@@ -1,5 +1,5 @@
 ---
-name: "Vue Development"
+name: "vue-development"
 description: "Build, modify, and debug Vue.js applications — Composition API, Pinia, FSD architecture, performance, and testing."
 ---
 

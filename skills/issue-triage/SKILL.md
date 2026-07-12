@@ -1,5 +1,5 @@
 ---
-name: "Issue Triage"
+name: "issue-triage"
 description: "Triage incoming issues — classify type, assess completeness, determine severity and priority, route to the right team."
 ---
 

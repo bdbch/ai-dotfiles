@@ -1,5 +1,5 @@
 ---
-name: "Dead Code Analysis"
+name: "dead-code-analysis"
 description: "Find dead code — unused exports, orphaned files, unreachable code, stale comments."
 ---
 

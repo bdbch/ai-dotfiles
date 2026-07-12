@@ -1,5 +1,5 @@
 ---
-name: "Browser Design Review"
+name: "browser-design-review"
 description: "Open a website in the browser and perform a senior UI/UX design critique, highlighting what works, what doesn't, and actionable improvements."
 ---
 

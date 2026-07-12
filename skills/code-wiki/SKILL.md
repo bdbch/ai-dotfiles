@@ -1,5 +1,5 @@
 ---
-name: "Code Wiki"
+name: "code-wiki"
 description: "Explain codebase symbols — Wikipedia-style articles for functions, classes, types, and modules."
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "Accessibility Audit"
+name: "accessibility-audit"
 description: "WCAG 2.1/2.2 accessibility audit — keyboard navigation, screen reader, color contrast, ARIA, semantic HTML."
 ---
 

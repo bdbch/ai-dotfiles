@@ -1,5 +1,5 @@
 ---
-name: "React Development"
+name: "react-development"
 description: "Build, modify, and debug React 18/19+ applications — hooks, RSC, concurrent features, composition, and testing."
 ---
 

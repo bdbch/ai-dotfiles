@@ -1,5 +1,5 @@
 ---
-name: "Content Writing"
+name: "content-writing"
 description: "Write human-facing content — blog posts, announcements, newsletters, copy that sounds human."
 ---
 

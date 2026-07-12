@@ -1,5 +1,5 @@
 ---
-name: "Technical Writing"
+name: "technical-writing"
 description: "Write technical documentation — API docs, READMEs, guides, JSDoc, architecture docs."
 ---
 

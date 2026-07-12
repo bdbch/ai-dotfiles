@@ -1,5 +1,5 @@
 ---
-name: "Deployment"
+name: "deployment"
 description: "Design and manage deployments — CI/CD pipelines, Docker, zero-downtime strategies, rollback plans, environment management, and release automation."
 ---
 

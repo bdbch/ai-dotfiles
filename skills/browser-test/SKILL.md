@@ -1,5 +1,5 @@
 ---
-name: "Browser Test"
+name: "browser-test"
 description: "Use the Chrome browser to manually test a feature end-to-end — navigate, click, type, and verify behavior like a human QA engineer."
 ---
 

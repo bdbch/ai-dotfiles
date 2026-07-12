@@ -1,5 +1,5 @@
 ---
-name: "Database Design"
+name: "database-design"
 description: "Design effective database schemas — normalization, indexing strategies, relationships, migrations, query optimization, and data modeling patterns for SQL and NoSQL."
 ---
 

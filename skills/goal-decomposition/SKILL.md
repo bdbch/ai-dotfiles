@@ -1,5 +1,5 @@
 ---
-name: "Goal Decomposition"
+name: "goal-decomposition"
 description: "Break down vague goals into concrete, verifiable steps — dependency ordering, milestone definition, exit criteria, thin vertical slices, and actionable execution plans."
 ---
 

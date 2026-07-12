@@ -1,5 +1,5 @@
 ---
-name: "Test Writing"
+name: "test-writing"
 description: "Write unit, integration, and E2E tests — follow project patterns, cover edge cases, stay deterministic."
 ---
 

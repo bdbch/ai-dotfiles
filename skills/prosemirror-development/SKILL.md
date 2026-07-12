@@ -1,5 +1,5 @@
 ---
-name: "ProseMirror Development"
+name: "prosemirror-development"
 description: "Build rich text editors with ProseMirror — EditorState, transactions, schema design, plugins, node views, decorations, commands, key bindings, input rules, history, and collaborative editing."
 ---
 

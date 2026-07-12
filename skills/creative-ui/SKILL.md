@@ -1,5 +1,5 @@
 ---
-name: "Creative UI"
+name: "creative-ui"
 description: "Build distinctive, memorable UIs — reject templates, find character, break conventions thoughtfully."
 ---
 

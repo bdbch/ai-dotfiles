@@ -1,5 +1,5 @@
 ---
-name: "Test Strategy"
+name: "test-strategy"
 description: "Plan test strategy — what to test, at what level, coverage targets, and edge cases."
 ---
 

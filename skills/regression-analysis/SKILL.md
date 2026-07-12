@@ -1,5 +1,5 @@
 ---
-name: "Regression Analysis"
+name: "regression-analysis"
 description: "Find regressions after changes — trace impact, identify risk areas, recommend defensive tests."
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "Idea Finder"
+name: "idea-finder"
 description: "Find product improvement ideas — grounded in the actual codebase, structured opportunity analysis."
 ---
 

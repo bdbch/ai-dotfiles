@@ -1,5 +1,5 @@
 ---
-name: "PHP Development"
+name: "php-development"
 description: "Write modern PHP — type system, OOP, PSR standards, Composer, namespaces, traits, generators, attributes, error handling, PDO, streams, and performance optimization."
 ---
 

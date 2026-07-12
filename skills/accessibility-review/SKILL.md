@@ -1,5 +1,5 @@
 ---
-name: "Accessibility Review"
+name: "accessibility-review"
 description: "Systematic WCAG accessibility audit using browser tools — keyboard navigation, screen reader compatibility, color contrast, ARIA, and semantic HTML."
 ---
 

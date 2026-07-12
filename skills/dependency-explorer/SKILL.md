@@ -1,5 +1,5 @@
 ---
-name: "Dependency Explorer"
+name: "dependency-explorer"
 description: "Analyze the dependency graph — circular dependencies, coupling hotspots, health, and bundle implications."
 ---
 
