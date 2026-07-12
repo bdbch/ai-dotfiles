@@ -19,6 +19,12 @@ Use this skill when assigned a GitHub issue to fix. The workflow: fetch the issu
 
 ```
 ┌──────────────────────────────────────────────┐
+│  0. VERIFY & AUDIT THE ISSUE                 │
+│     sanity check, duplicates, prior fixes,   │
+│     outdated labels, project relevance       │
+└────────────────────┬─────────────────────────┘
+                     ▼
+┌──────────────────────────────────────────────┐
 │  1. FETCH CONTEXT                            │
 │     issue body, comments, linked issues,     │
 │     discussions, cross-references            │
@@ -48,6 +54,71 @@ Use this skill when assigned a GitHub issue to fix. The workflow: fetch the issu
 │     links back to the issue                  │
 └──────────────────────────────────────────────┘
 ```
+
+## Step 0: Verify & audit the issue
+
+Before fetching any context, run a quick sanity check on the issue itself. Not every open issue is worth fixing — some are invalid, obsolete, or better closed.
+
+### Quick sanity check
+
+```bash
+# Check the issue state and labels
+gh issue view <number> --repo <owner/repo> --json state,labels,stateReason
+
+# Look for signals the issue may be stale or invalid
+# - state: "closed" (already resolved)
+# - labels: "invalid", "wontfix", "duplicate", "stale", "question"
+# - stateReason: "not_planned", "duplicate"
+```
+
+Run through this checklist:
+
+```
+□ Does the issue describe a real, coherent problem?
+  → If the description is vague, contradictory, or nonsensical,
+    ask for clarification before proceeding.
+
+□ Is the issue still open and active?
+  → If closed, check if the fix was already applied. If stale
+    (no activity for 30+ days), consider whether it's still relevant.
+
+□ Is this a duplicate?
+  → Search the repo for similar issues using the problem keywords.
+    gh search issues "<keywords>" --repo <owner/repo>
+
+□ Was this already fixed?
+  → Search commits and PRs that mention the issue keywords.
+    gh search commits "<keywords>" --repo <owner/repo>
+    gh search prs "<keywords>" --repo <owner/repo>
+
+□ Is the issue outdated?
+  → Check if the problem still reproduces on the latest version.
+    If the issue is 6+ months old with no activity, the behavior
+    may have changed or been fixed incidentally.
+
+□ Is this a project bug or a user/upstream issue?
+  → Is the problem in the project's own code, or is it a
+    misconfiguration, usage error, or bug in a dependency?
+  → If it's a user error: close with guidance.
+  → If it's an upstream bug: link to the upstream issue.
+  → If it's a real project bug: proceed to Step 1.
+```
+
+### Decision: proceed or close
+
+Based on the audit, decide what to do:
+
+| Signal | Action |
+|--------|--------|
+| Real bug, still reproducible | Proceed with Step 1 |
+| Duplicate | Close with link to original issue |
+| Already fixed | Close as completed |
+| Stale / outdated | Ask reporter to verify on latest version |
+| User error | Close with explanation |
+| Upstream issue | Close and link upstream |
+| Feature request | Evaluate if in scope, relabel or route |
+
+Only proceed to Step 1 if the issue passes the audit. If you close the issue, document the reasoning and stop here.
 
 ## Step 1: Fetch context
 
