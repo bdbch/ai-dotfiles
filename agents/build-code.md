@@ -1,7 +1,7 @@
 ---
 description: Build features — vibe mode (fast, automatic) or iterative mode (step-by-step with review)
 mode: all
-model: neuralwatt/kimi-k2.7-code
+model: opencode-go/mimo-v2.5
 permission:
   edit: allow
 temperature: 0.2

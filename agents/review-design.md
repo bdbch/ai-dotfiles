@@ -1,6 +1,7 @@
 ---
 description: Review visual design — layout, typography, color, spacing, hierarchy, interaction quality
 mode: all
+model: opencode-go/deepseek-v4-pro
 permission:
   edit: deny
 temperature: 0.65

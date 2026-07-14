@@ -1,7 +1,7 @@
 ---
 description: Explore codebase structure — find files, trace patterns, understand architecture
 mode: all
-model: neuralwatt/qwen3.6-35b-fast
+model: opencode-go/mimo-v2.5
 permission:
   edit: deny
 temperature: 0.2

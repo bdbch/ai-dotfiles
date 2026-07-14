@@ -1,6 +1,7 @@
 ---
 description: Review application security — vulnerabilities, authentication, data handling, compliance
 mode: all
+model: opencode-go/deepseek-v4-pro
 permission:
   edit: deny
 temperature: 0.1

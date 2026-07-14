@@ -1,7 +1,7 @@
 ---
 description: Plan features, architecture, and refactoring — concrete implementation plans with tradeoffs
 mode: all
-model: neuralwatt/glm-5.2
+model: opencode-go/mimo-v2.5-pro
 permission:
   edit: deny
 temperature: 0.2
