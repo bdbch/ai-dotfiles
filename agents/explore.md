@@ -19,7 +19,7 @@ Call this agent when:
 
 ## This agent can also call
 
-- **Explore Ask** — when the user has a general question
+- **Ask** — when the user has a general question
 - **Context Lookup** — fetch a single fact without reading large files
 - **Code Search** — get a list of matching files and lines
 - **Symbol Finder** — locate symbol definitions and main usages

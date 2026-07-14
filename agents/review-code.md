@@ -1,7 +1,7 @@
 ---
 description: Review code for quality — best practices, potential bugs, maintainability, TypeScript types, API DX
 mode: all
-model: opencode-go/deepseek-v4-pro
+model: opencode-go/mimo-v2.5-pro
 permission:
   edit: deny
 temperature: 0.1

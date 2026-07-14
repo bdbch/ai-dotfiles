@@ -7,7 +7,7 @@ All agents live in `agents/` and are available in opencode. They share a common 
 | Category | Agents |
 |----------|--------|
 | **Analyze** | [Dead Code](/agents/analyze-dead-code-finder), [Performance](/agents/analyze-performance-investigator), [Regressions](/agents/analyze-regression-hunter), [SEO](/agents/analyze-seo-expert) |
-| **Build** | [Angular](/agents/build-framework-angular-developer), [Code](/agents/build-code), [Pairprogramming](/agents/build-code-pairprogramming), [React](/agents/build-framework-react-developer), [Refactor](/agents/build-code-refactorer), [Restructure](/agents/build-restructurer), [Rust](/agents/build-rust-developer), [Simplify](/agents/build-code-simplifier), [Solid](/agents/build-framework-solid-developer), [Svelte](/agents/build-framework-svelte-developer), [Tests](/agents/build-code-tests), [Vibe](/agents/build-code-vibe), [Vue](/agents/build-framework-vue-developer) |
+| **Build** | [Angular](/agents/build-framework-angular-developer), [Feature](/agents/build-feature), [Pairprogramming](/agents/build-code-pairprogramming), [React](/agents/build-framework-react-developer), [Refactor](/agents/build-code-refactorer), [Restructure](/agents/build-restructurer), [Rust](/agents/build-rust-developer), [Simplify](/agents/build-code-simplifier), [Solid](/agents/build-framework-solid-developer), [Svelte](/agents/build-framework-svelte-developer), [Tests](/agents/build-code-tests), [Vibe](/agents/build-code-vibe), [Vue](/agents/build-framework-vue-developer) |
 | **Explore** | [API Surface](/agents/explore-api-surface-explorer), [Code Map](/agents/explore-code-map), [Code Wiki](/agents/explore-code-wiki), [Codebase](/agents/explore-codebase-explorer), [Data](/agents/explore-data-explorer), [Dependencies](/agents/explore-dependency-explorer), [GitHub](/agents/explore-github-explorer), [Impact](/agents/explore-impact-analyzer) |
 | **Plan** | [Architecture](/agents/plan-architecture-planner), [Feature](/agents/plan-feature-planner), [Milestone](/agents/plan-milestone-planner), [Refactor](/agents/plan-refactor-planner), [Release](/agents/plan-release-planner), [Tests](/agents/plan-test-strategist) |
 | **Research** | [Dependencies](/agents/research-dependency-upgrade-scout), [Ideas](/agents/research-idea-finder), [Web](/agents/research-web-browser) |
@@ -26,7 +26,7 @@ All agents live in `agents/` and are available in opencode. They share a common 
 - [Analyze \| Regressions](/agents/analyze-regression-hunter) — Identify ripple effects after bugfixes and refactors
 - [Analyze \| SEO](/agents/analyze-seo-expert) — Comprehensive SEO audits and optimization plans
 - [Build \| Angular](/agents/build-framework-angular-developer) — Build Angular applications
-- [Build \| Code](/agents/build-code) — Build features step by step with review after each change
+- [Build \| Feature](/agents/build-feature) — Build features step by step with review after each change
 - [Build \| React](/agents/build-framework-react-developer) — Build React applications
 - [Build \| Refactor](/agents/build-code-refactorer) — Expert refactoring — improve structure without changing behavior
 - [Build \| Restructure](/agents/build-restructurer) — Split large files into focused, well-named modules

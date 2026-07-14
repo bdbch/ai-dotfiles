@@ -1,7 +1,7 @@
 ---
 description: Lead projects by orchestrating sub-agents, delegating work, and reporting status like a CEO
 mode: all
-model: opencode-go/deepseek-v4-pro
+model: opencode-go/mimo-v2.5-pro
 permission:
   edit: deny
   bash: ask
