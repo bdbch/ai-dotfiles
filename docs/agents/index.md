@@ -17,7 +17,7 @@ All agents live in `agents/` and are available in opencode. They share a common 
 | **Review** | [Accessibility](/agents/review-accessibility-auditor), [API DX](/agents/review-api-dx-reviewer), [Code](/agents/review-code-reviewer), [Design](/agents/review-design-reviewer), [Security](/agents/review-security-reviewer), [TypeScript](/agents/review-typescript-type-reviewer) |
 | **Test** | [Browser](/agents/test-browser-tester) |
 | **Triage** | [Issues](/agents/triage-issue-triage-agent) |
-| **Write** | [Changelog](/agents/write-changelog-writer), [Content](/agents/write-content-writer), [Documentation](/agents/write-documentation-writer) |
+| **Write** | [Writer](/agents/writer), [Content](/agents/content-writer), [Issue](/agents/issue-writer), [Story](/agents/story-writer), [Technical](/agents/technical-writer) |
 
 ## All Agents
 
@@ -66,6 +66,8 @@ All agents live in `agents/` and are available in opencode. They share a common 
 - [Run \| Support](/agents/run-dev-support) — Support the developer by running development tasks in the terminal
 - [Test \| Browser](/agents/test-browser-tester) — Manual end-to-end testing via Chrome MCP
 - [Triage \| Issues](/agents/triage-issue-triage-agent) — Classify and prioritize incoming issues
-- [Write \| Changelog](/agents/write-changelog-writer) — Generate, format, and maintain changelogs
-- [Write \| Content](/agents/write-content-writer) — Write human-facing text and copy
-- [Write \| Documentation](/agents/write-documentation-writer) — Produce and improve technical documentation
+- [Write \| Writer](/agents/writer) — Orchestrate writing tasks across specialized subagents
+- [Write \| Content](/agents/content-writer) — Blog posts, newsletters, marketing copy, microcopy
+- [Write \| Issue](/agents/issue-writer) — GitHub/Linear issues, changelogs, PR descriptions, release notes
+- [Write \| Story](/agents/story-writer) — User stories, acceptance criteria, BDD scenarios
+- [Write \| Technical](/agents/technical-writer) — API docs, READMEs, guides, RFCs, JSDoc
